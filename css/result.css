@@ -67,13 +67,4 @@ main .single .left-img .arrow-bottom {
 main .single .single-details {
   padding-top: 1rem;
 }
-
-@media (max-width: 768px) {
-  header .features {
-    font-size: 14px;
-  }
-  header .disa {
-    display: none;
-  }
-}
 /*# sourceMappingURL=result.css.map */

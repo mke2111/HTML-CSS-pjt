@@ -80,6 +80,14 @@ main .right {
   right: -10px;
 }
 
+main .pop-up {
+  width: 5rem;
+  height: 4rem;
+  font-size: 10px;
+  -webkit-text-decoration: #383838;
+          text-decoration: #383838;
+}
+
 main .hot-ad .left-img {
   padding: 0;
   height: 12rem;
@@ -167,5 +175,14 @@ footer h4 {
   font-size: 16px;
   border-bottom: 1px solid #d35266;
   padding-bottom: 0.5rem;
+}
+
+@media (max-width: 768px) {
+  header .features {
+    font-size: 14px;
+  }
+  header .disa {
+    display: none;
+  }
 }
 /*# sourceMappingURL=style.css.map */

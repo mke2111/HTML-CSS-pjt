@@ -93,6 +93,14 @@ main {
     right: -10px;
   }
 
+  .pop-up {
+    width: 5rem;
+    height: 4rem;
+    font-size: 10px;
+    // background-color: $light-color;
+    text-decoration: $dark-color;
+  }
+
   .hot-ad {
     .left-img {
       padding: 0;
@@ -203,4 +211,16 @@ footer {
     padding-bottom: 0.5rem;
   }
 }
-//
+
+@media (max-width: 768px) {
+  header {
+    .features {
+      font-size: 14px
+
+    }
+
+    .disa {
+      display: none;
+    }
+  }
+}
