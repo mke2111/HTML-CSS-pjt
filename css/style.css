@@ -3,13 +3,37 @@
           box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+@font-face {
+  font-family: 'gotham bold';
+  src: url("fonts/Gotham-Font/GothamBold.ttf");
+  font-style: normal;
+  font-weight: 900;
+}
+
+@font-face {
+  font-family: 'gotham light';
+  src: url("fonts/Gotham-Font/GothamLight.ttf");
+  font-style: normal;
+  font-weight: 500;
+}
+
+.gotham-bold {
+  font-family: "gotham bold";
+  font-weight: bolder;
+}
+
+.gotham-light {
+  font-family: 'gotham light';
 }
 
 a,
 p,
 li a {
   color: #383838;
+  font-family: 'gotham light';
 }
 
 a:hover {
@@ -19,6 +43,7 @@ a:hover {
 h3,
 h4 {
   color: #383838;
+  font-family: "gotham bold";
 }
 
 nav {
