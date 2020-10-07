@@ -19,28 +19,30 @@
   <header class="container-fluid">
     <nav class="row align-items-center">
 
-      <ul class="col-md-10 d-flex justify-content-around">
-        <li><a href="index.html"><img src="images/dmn.png" alt=""></a></li>
-        <li><a class="active" href="index.html"><i class="fas fa-home"></i> HOME</a></li>
-        <li><a href="results.html"><i class="fas fa-chevron-down"></i> COLLECTIONS</a>
-        <li><a href="index.html"><i class="fas fa-shopping-cart"></i> PURCHASE LIST</a></li>
+      <ul class="features col-md-10 d-flex justify-content-around align-items-center">
+        <li><a href="index.html"><img class="img-fluid" src="images/dmn.png" alt=""></a></li>
+        <li><a class="active" href="index.html"><i class="fas disa fa-home"></i> HOME</a></li>
+        <li><a href="results.html"><i class="fas disa fa-chevron-down"></i> COLLECTIONS</a>
+        <li><a href="index.html"><i class="fas disa fa-shopping-cart"></i> PURCHASE LIST</a></li>
       </ul>
 
-      <div class="user col-md-2">
+      <div class="user col-md-2 d-none d-md-block">
         <a href="">RickN Morty <i class="fas fa-user"></i></a>
       </div>
     </nav>
   </header>
 
   <!-- End Header -->
+
+   <!-- Start main -->
   <main class="container-fluid">
-    <div class="row ">
+    <div class="row">
       <div class="col-12 pt-5  search-section text-left ">
-        <div class="pt-5 pl-5">
+        <div class="pt-2 pl-3 ">
           <h2>Guitar Rhythm Cloud</h2>
-          <p>We are happy to serve customers worldwide, indulge yourself with the latest gear, crafted just for you.</p>
+          <p class="d-none d-sm-block">We are happy to serve customers worldwide, indulge yourself with the latest gear, crafted just for you.</p>
         </div>
-        <div class="look-up pb-5 pl-5 d-flex justify-content-start">
+        <div class="look-up pb-5 pl-3 d-flex flex-wrap justify-content-start">
           <div class="see-all p-2 border-right">
             <h6><i class="fas fa-chevron-down"></i> &nbsp;All Categories</h6>
           </div>
@@ -60,31 +62,29 @@
     </div>
     <!-- Categories section -->
 
-    <!-- left column -->
+    
     <div class="row container ml-auto mr-auto ">
+      <!-- left column -->
       <div class="col-md-3 pt-5">
         <form action="POST">
           <input type="checkbox" name="rent" id="rent"><label for="rent"> Rent</label>&nbsp; &nbsp;
           <input type="checkbox" name="own" id="own"><label for="own">Ownership</label>
 
-          <h4>Type</h4>
-          <hr>
+          <h4 class="pt-4 border-bottom pb-2">Type</h4>
           <ul>
             <li><input type="checkbox" name="place" id="place"><label for="place"> Bass</label></li>
             <li><input type="checkbox" name="room" id="room"><label for="room"> Acoustic</label></li>
             <li><input type="checkbox" name="rent" id="rent"><label for="rent">Electric</label></li>
           </ul>
  
-          <h4>Size</h4>
-          <hr>
+          <h4 class="pt-4 border-bottom pb-2">Size</h4>
           <ul>
             <li><input type="checkbox" name="place" id="place"><label for="place">Entire place</label></li>
             <li><input type="checkbox" name="room" id="room"><label for="room">Private room</label></li>
             <li><input type="checkbox" name="rent" id="rent"><label for="rent">Rent</label></li>
           </ul>
 
-          <h4>price Range</h4>
-          <hr>
+          <h4 class="pt-4 border-bottom pb-2">Price Range</h4>
           <ul>
             <li><input type="checkbox" name="place" id="place"><label for="place">$450 - $800</label></li>
             <li><input type="checkbox" name="room" id="room"><label for="room">$800 - $1200</label></li>
@@ -98,19 +98,20 @@
       <!-- End of left column -->
 
       <!-- Right column -->
-      <div class="col-md-9 border-right border-left pr-0 pl-0">
+      <div class="col-md-9 border-right border-left p-0">
         <p class="pt-5 pl-3">1234 Results for "Guitar" Search at San Francisco in Category Acoustic Guitar</p>
         <hr>
         <div class="row single pt-4 ml-auto mr-auto pl-3 ">
 
-          <div class="col-md-4 position-relative left-img" >
-            <a href=""><img class="img-fluid" src="https://www.mi.edu/wp-content/uploads/2018/12/Guitar-History-How-the-Guitar-has-Evolved-1080x675.jpg" alt=""></a>
-            <h5 class="arrow-bottom text-center">
-              <i class="fas fa-chevron-left"></i>&nbsp;
-              <i class="fas fa-chevron-right"></i>
-            </h5>
-    
+          <div class="col-md-4" >
+            <div class="left-img position-relative" style="background-image: url('https://www.mi.edu/wp-content/uploads/2018/12/Guitar-History-How-the-Guitar-has-Evolved-1080x675.jpg');">
+              <div class="arrow-bottom text-center">
+                <i class="fas fa-chevron-left"></i>&nbsp;
+                <i class="fas fa-chevron-right"></i>
+              </div>
+            </div>
           </div>
+
           <div class="col-md-8">
             <div class="single-details d-flex justify-content-between">
               <div>
@@ -135,14 +136,15 @@
 
         <div class="row single pt-4 ml-auto mr-auto pl-3 ">
 
-          <div class="col-md-4 position-relative left-img" >
-            <a href=""><img class="img-fluid" src="https://www.mi.edu/wp-content/uploads/2018/12/Guitar-History-How-the-Guitar-has-Evolved-1080x675.jpg" alt=""></a>
-            <h5 class="arrow-bottom text-center">
-              <i class="fas fa-chevron-left"></i>&nbsp;
-              <i class="fas fa-chevron-right"></i>
-            </h5>
-    
+          <div class="col-md-4" >
+            <div class="left-img position-relative" style="background-image: url('https://www.mi.edu/wp-content/uploads/2018/12/Guitar-History-How-the-Guitar-has-Evolved-1080x675.jpg');">
+              <div class="arrow-bottom text-center">
+                <i class="fas fa-chevron-left"></i>&nbsp;
+                <i class="fas fa-chevron-right"></i>
+              </div>
+            </div>
           </div>
+
           <div class="col-md-8">
             <div class="single-details d-flex justify-content-between">
               <div>
@@ -167,14 +169,15 @@
 
         <div class="row single pt-4 ml-auto mr-auto pl-3 ">
 
-          <div class="col-md-4 position-relative left-img" >
-            <a href=""><img class="img-fluid" src="https://www.mi.edu/wp-content/uploads/2018/12/Guitar-History-How-the-Guitar-has-Evolved-1080x675.jpg" alt=""></a>
-            <h5 class="arrow-bottom text-center">
-              <i class="fas fa-chevron-left"></i>&nbsp;
-              <i class="fas fa-chevron-right"></i>
-            </h5>
-    
+          <div class="col-md-4" >
+            <div class="left-img position-relative" style="background-image: url('https://www.mi.edu/wp-content/uploads/2018/12/Guitar-History-How-the-Guitar-has-Evolved-1080x675.jpg');">
+              <div class="arrow-bottom text-center">
+                <i class="fas fa-chevron-left"></i>&nbsp;
+                <i class="fas fa-chevron-right"></i>
+              </div>
+            </div>
           </div>
+
           <div class="col-md-8">
             <div class="single-details d-flex justify-content-between">
               <div>
@@ -199,14 +202,15 @@
 
         <div class="row single pt-4 ml-auto mr-auto pl-3 ">
 
-          <div class="col-md-4 position-relative left-img" >
-            <a href=""><img class="img-fluid" src="https://www.mi.edu/wp-content/uploads/2018/12/Guitar-History-How-the-Guitar-has-Evolved-1080x675.jpg" alt=""></a>
-            <h5 class="arrow-bottom text-center">
-              <i class="fas fa-chevron-left"></i>&nbsp;
-              <i class="fas fa-chevron-right"></i>
-            </h5>
-    
+          <div class="col-md-4" >
+            <div class="left-img position-relative" style="background-image: url('https://www.mi.edu/wp-content/uploads/2018/12/Guitar-History-How-the-Guitar-has-Evolved-1080x675.jpg');">
+              <div class="arrow-bottom text-center">
+                <i class="fas fa-chevron-left"></i>&nbsp;
+                <i class="fas fa-chevron-right"></i>
+              </div>
+            </div>
           </div>
+
           <div class="col-md-8">
             <div class="single-details d-flex justify-content-between">
               <div>
@@ -231,14 +235,15 @@
 
         <div class="row single pt-4 ml-auto mr-auto pl-3 ">
 
-          <div class="col-md-4 position-relative left-img" >
-            <a href=""><img class="img-fluid" src="https://www.mi.edu/wp-content/uploads/2018/12/Guitar-History-How-the-Guitar-has-Evolved-1080x675.jpg" alt=""></a>
-            <h5 class="arrow-bottom text-center">
-              <i class="fas fa-chevron-left"></i>&nbsp;
-              <i class="fas fa-chevron-right"></i>
-            </h5>
-    
+          <div class="col-md-4" >
+            <div class="left-img position-relative" style="background-image: url('https://www.mi.edu/wp-content/uploads/2018/12/Guitar-History-How-the-Guitar-has-Evolved-1080x675.jpg');">
+              <div class="arrow-bottom text-center">
+                <i class="fas fa-chevron-left"></i>&nbsp;
+                <i class="fas fa-chevron-right"></i>
+              </div>
+            </div>
           </div>
+          
           <div class="col-md-8">
             <div class="single-details d-flex justify-content-between">
               <div>
@@ -270,53 +275,21 @@
     </div>
   </main>
 
-  <!-- Start main -->
-
-
-  <!-- Related products -->
-  <div>
-    <div>
-      <img src="" alt="">
-      <h4></h4>
-      <p></p>
-    </div>
-
-    <div>
-      <img src="" alt="">
-      <h4></h4>
-      <p></p>
-    </div>
-
-    <div>
-      <img src="" alt="">
-      <h4></h4>
-      <p></p>
-    </div>
-
-    <div>
-      <img src="" alt="">
-      <h4></h4>
-      <p></p>
-    </div>
-  </div>
-
-  <!-- End of related products -->
-
-  <!-- Slider -->
+ 
 
   <!-- End main -->
   <hr>
   <!-- Start footer -->
-  <footer class="container-fluid pt-4">
+  <footer class="container-fluid">
 
     <div class="location row container ml-auto mr-auto">
-      <div class="col-md-6">
+      <div class="col-md-5">
         <h4>Guitar Rhythm Cloud</h4>
         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore sit pariatur consequatur praesentium
           dicta omnis officia, magni rem quae repellat explicabo, soluta quam possimus quasi harum minus nemo aspernatur
           voluptatibus? Incidunt odit neque voluptatibus. Porro veritatis deleniti impedit aperiam quaerat!</p>
       </div>
-      <div class="col-md-2">
+      <div class="col-md-3">
         <h4>Customer Account</h4>
         <ul>
           <li><a href="">Order History</a></li>
@@ -345,12 +318,12 @@
     </div>
     <hr>
     <div class="footer-bottom container">
-      <ul class="d-flex justify-content-around pt-3">
-        <li> &#169; Copyright Sudo Musical Center All Rights Reserved</li>
-        <li><a href="">Terms of Use</a> </li>
-        <li><a href="">Your Privacy Rights</a> </li>
-        <li><a href="">Purchase Terms & Conditions</a> </li>
-        <li><a href="">Shipping Terms & Conditions</a> </li>
+      <ul class="row d-flex justify-content-around pt-3">
+        <li class="col-4"> &#169; Copyright Sudo Musical Center All Rights Reserved</li>
+        <li class="col-2"><a href="">Terms of Use</a> </li>
+        <li class="col-2"><a href="">Your Privacy Rights</a> </li>
+        <li class="col-2"><a href="">Purchase T & Cs</a> </li>
+        <li class="col-2"><a href="">Shipping T & Cs</a> </li>
       </ul>
     </div>
 

@@ -10,40 +10,77 @@ $primary-color: #d35266;
   font-family: Arial, Helvetica, sans-serif;
 }
 
+a {
+  color: #383838;
+}
+
+p {
+  font-size: 14px;
+}
+
 
 main {
-  .look-up {
-    display: none;
-  }
+
   // left column
   .search-section {
     padding-left: 5rem;
   }
 
+
+
   label {
     padding-left: 0.8rem;
+    font-size: 1rem;
+    // padding-bottom: 0.5rem;
+  }
+
+  form {
+    input {
+      width: 1rem;
+      height: 1rem;
+    }
+
+    ul {
+      list-style: none;
+    }
+
+    h4 {
+      font-size: 1.2rem;
+    }
   }
 
   // right column
 
   .single {
+
     h4 {
       font-size: 14px;
+      
     }
 
-    p,
     h5,
     span {
       font-size: 14px;
     }
     .left-img {
       padding: 0;
-      position: relative;
+      height: 12rem;
+      width: 100%;
+      
+
+      background-position: center center;
+      background-size: cover;
+      background-repeat: no-repeat;
+
+      img {
+        height: 190px;
+      }
 
       .arrow-bottom {
         bottom: 0;
         right: 0;
         width: 3rem;
+        height: 1.3rem;
         background-color: $light-color;
         color: $primary-color;
         position: absolute;
@@ -51,15 +88,28 @@ main {
 
 
     }
-  }
 
-  .jumbotron {
-    
+    .single-details {
+      padding-top: 1rem;
+    }
   }
 
 
   
 
+}
+
+@media (max-width: 768px) {
+  header {
+    .features {
+      font-size: 14px
+
+    }
+
+    .disa {
+      display: none;
+    }
+  }
 }
 
 
