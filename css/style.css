@@ -129,6 +129,11 @@ main .carousel-item {
   background-size: cover;
 }
 
+main .hiii {
+  height: 100%;
+  max-height: 30rem;
+}
+
 main .card .card-title {
   color: #d35266;
   font-size: 14px;

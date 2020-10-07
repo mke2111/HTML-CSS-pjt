@@ -12,7 +12,14 @@ $primary-color: #d35266;
 
 
 main {
+  .look-up {
+    display: none;
+  }
   // left column
+  .search-section {
+    padding-left: 5rem;
+  }
+
   label {
     padding-left: 0.8rem;
   }
@@ -20,16 +27,19 @@ main {
   // right column
 
   .single {
+    h4 {
+      font-size: 14px;
+    }
+
+    p,
+    h5,
+    span {
+      font-size: 14px;
+    }
     .left-img {
       padding: 0;
       position: relative;
-      background: center center cover;
-  
-      // .nn {
-      //   height: 230px;
-      //   width: 265px;
-      // }
-  
+
       .arrow-bottom {
         bottom: 0;
         right: 0;
@@ -39,25 +49,15 @@ main {
         position: absolute;
       }
 
-      .single-details {
 
-
-
-      }
-
-
+    }
   }
 
-  }
-  h4 {
-    font-size: 14px;
+  .jumbotron {
+    
   }
 
-  p,
-  h5,
-  span {
-    font-size: 14px;
-  }
+
   
 
 }

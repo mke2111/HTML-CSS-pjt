@@ -147,7 +147,13 @@ main {
     background-size: cover;
   }
 
+  .hiii {
+    height: 100%;
+    max-height: 30rem;
+  }
+
   .card {
+    
     .card-title {
       color: $primary-color;
       font-size: 14px;
