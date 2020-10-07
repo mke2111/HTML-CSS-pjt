@@ -1,27 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
   <script src="https://kit.fontawesome.com/06aa7828ae.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="css/style.css">
 
   <title>Online-Shop</title>
 </head>
+
 <body>
   <!-- Start Header -->
 
-  <header>
-    <nav>
+  <header class="container-fluid">
+    <nav class="row align-items-center">
 
+      <ul class="col-md-10 d-flex justify-content-around">
+        <li><a href="index.html"><img src="images/dmn.png" alt=""></a></li>
+        <li><a class="active" href="index.html"><i class="fas fa-home"></i> HOME</a></li>
+        <li><a href="results.html"><i class="fas fa-chevron-down"></i> COLLECTIONS</a>
+        <li><a href="index.html"><i class="fas fa-shopping-cart"></i> PURCHASE LIST</a></li>
+      </ul>
+
+      <div class="user col-md-2">
+        <a href="">RickN Morty <i class="fas fa-user"></i></a>
+      </div>
     </nav>
   </header>
-  
+
   <!-- End Header -->
+  <main>
+    <div class="row ">
+      <div class="col-12 pt-3 search-section text-center ">
+        <div class="pt-5">
+          <h2>Guitar Rhythm Cloud</h2>
+          <p>We are happy to serve customers worldwide, indulge yourself with the latest gear, crafted just for you.</p>
+        </div>
+        <div class="look-up pb-5 d-flex justify-content-center">
+          <div class="see-all p-2 border-right">
+            <h6><i class="fas fa-chevron-down"></i> All Categories</h6>
+          </div>
+          <div class="see-all">
+            <input class="search-items" type="text" placeholder="   Search products...">
+          </div>
+          <div class="see-all p-2 border-left">
+            <h6>San Francisco</h6>
+          </div>
+          <div class="bg-dark ml-2 p-2">
+            <a class="text-white" href="results.html">SEARCH</a>
+          </div>
+
+
+        </div>
+      </div>
+    </div>
+  </main>
 
   <!-- Start main -->
-  
+
 
   <!-- Related products -->
   <div>
@@ -59,19 +98,71 @@
     <div></div>
   </div>
 
-  
-  <!-- End main -->
 
+  <!-- End main -->
+  <hr>
   <!-- Start footer -->
-  <footer>
-    
+  <footer class="container-fluid pt-4">
+
+    <div class="location row container ml-auto mr-auto">
+      <div class="col-md-6">
+        <h4>Guitar Rhythm Cloud</h4>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore sit pariatur consequatur praesentium
+          dicta omnis officia, magni rem quae repellat explicabo, soluta quam possimus quasi harum minus nemo aspernatur
+          voluptatibus? Incidunt odit neque voluptatibus. Porro veritatis deleniti impedit aperiam quaerat!</p>
+      </div>
+      <div class="col-md-2">
+        <h4>Customer Account</h4>
+        <ul>
+          <li><a href="">Order History</a></li>
+          <li><a href="">Returns</a></li>
+          <li><a href="">Email preferences</a></li>
+        </ul>
+      </div>
+      <div class="col-md-2">
+        <h4>Presentations</h4>
+        <ul>
+          <li><a href="">Show Room</a></li>
+          <li><a href="">Press</a> </li>
+        </ul>
+      </div>
+      <div class="col-md-2">
+        <h4>Support</h4>
+        <ul>
+          <li><a href="">Service & Support</a></li>
+          <li><a href="">About</a></li>
+          <li><a href="">Careers</a></li>
+          <li><a href="">Branches</a></li>
+          <li><a href="">Report</a></li>
+
+        </ul>
+      </div>
+    </div>
+    <hr>
+    <div class="footer-bottom container">
+      <ul class="d-flex justify-content-around pt-3">
+        <li> &#169; Copyright Sudo Musical Center All Rights Reserved</li>
+        <li><a href="">Terms of Use</a> </li>
+        <li><a href="">Your Privacy Rights</a> </li>
+        <li><a href="">Purchase Terms & Conditions</a> </li>
+        <li><a href="">Shipping Terms & Conditions</a> </li>
+      </ul>
+    </div>
+
   </footer>
-  
+
   <!-- End footer -->
 
-  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
-  
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+    crossorigin="anonymous"></script>
+
 </body>
+
 </html>

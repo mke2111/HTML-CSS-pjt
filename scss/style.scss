@@ -10,11 +10,180 @@ $primary-color: #d35266;
   font-family: Arial, Helvetica, sans-serif;
 }
 
-p {
+p,
+li a {
   color: $light-color;
+}
+a:hover {
+  text-decoration: none;
 }
 
 h3,
 h4 {
   color: $dark-color;
+}
+
+nav {
+  background-color: $dark-color;
+  font-size: 1rem;
+
+
+  ul {
+    li {
+      // padding-right: 1rem;
+      list-style: none;
+
+      i {
+        padding-top: 2rem;
+      }
+    }
+  }
+
+  a {
+    color: $light-color;
+  }
+
+  .user {
+    a {
+      // font-size: 1.5rem;
+      color: $light-color;
+    }
+  }
+}
+
+main {
+  .search-items {
+    border: 1px solid white;
+    height: 2.4rem;
+    border-radius: 5px;
+    width: 20rem;
+  }
+
+  .slogan {
+    color: $primary-color;
+  }
+  
+  .search-section {
+    background-color: $primary-color;
+    height: 20rem;
+    
+    h2,
+    p {
+      color: white;
+    }
+
+  }
+
+  .see-all {
+    background-color: white;
+  }
+
+  .hot-ad {
+    .arrows {
+      width: 3rem;
+      background-color: $light-color;
+      bottom: 0;
+      right: 4%;
+      color: $primary-color;
+    }
+
+    .both-icons {
+      font-size: 2rem;
+      color: $primary-color;
+    }
+
+    #left {
+      left: 0;
+      top: 50%;
+    }
+
+    #right {
+      right: 0;
+      top: 50%;
+    }
+    h5 {
+      font-size: 14px;
+
+      span {
+        font-size: 13px;
+      }
+    }
+
+    p {
+      font-size: 15px;
+    }
+    .price-details {
+
+      .price {
+        border-bottom-left-radius: 10px;
+        border-top-left-radius: 10px;
+      }
+  
+      .details {
+        border-left: 1px solid white;
+        border-bottom-right-radius: 10px;
+        border-top-right-radius: 10px;
+      }
+  
+      span {
+        background-color: $primary-color;
+        color: white;
+        padding: 0.6rem;
+      }
+    }
+  }
+
+  .row-title {
+    padding: 1rem 0 0 8rem;
+  }
+  
+  .carousel-item {
+    height: 100%;
+    min-height: 350px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+  .card {
+    .card-title {
+      color: $primary-color;
+      font-size: 14px;
+    }
+  
+    .card-text {
+      font-size: 14px;
+    }
+
+    .cart {
+      span {
+        color: $primary-color;
+        font-weight: 900;
+      }
+    }
+  }
+
+
+}
+
+footer {
+  li,
+  p {
+    font-size: 14px;
+  }
+
+  ul {
+    list-style: none;
+
+
+  }
+
+  h4 {
+    color: $primary-color;
+    font-size: 16px;
+    border-bottom: 1px solid $primary-color;
+    padding-bottom: 0.5rem;
+  }
 }

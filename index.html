@@ -1,169 +1,387 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
   <script src="https://kit.fontawesome.com/06aa7828ae.js" crossorigin="anonymous"></script>
 
   <link rel="stylesheet" href="css/style.css">
 
   <title>Online-shop</title>
 </head>
+
 <body>
   <!-- Start Header -->
 
-  <header class="container">
-    <nav class="row">
-      <div class="logo col-md-2"><a href="index.html"><img src="" alt=""></a></div>
+  <header class="container-fluid">
+    <nav class="row align-items-center">
 
-      <ul class="col-md-8 d-flex">
-        <li>
-          <a href="index.html">HOME</a>
-          <a href="results.html">PRODUCTS</a>
-          <a href="index.html">CONTACT</a>
-        </li>
+      <ul class="col-md-10 d-flex justify-content-around">
+        <li><a href="index.html"><img src="images/dmn.png" alt=""></a></li>
+        <li><a class="active" href="index.html"><i class="fas fa-home"></i> HOME</a></li>
+        <li><a href="results.html"><i class="fas fa-chevron-down"></i> COLLECTIONS</a>
+        <li><a href="index.html"><i class="fas fa-shopping-cart"></i> PURCHASE LIST</a></li>
       </ul>
 
-      <div class="nav-icons col-md-2 ">
-        <a href="index.html"><i class="fas fa-shopping-cart"></i></a>
-        <a href="index.html"><i class="far fa-user-circle"></i></a>
+      <div class="user col-md-2">
+        <a href="">RickN Morty <i class="fas fa-user"></i></a>
       </div>
     </nav>
   </header>
-  
+
   <!-- End Header -->
 
   <!-- Start main -->
+
   <!-- Slider/Search section -->
-  <main class="container">
+  <main class="container-fluid">
     <div class="row ">
-      <div class="col-md-5">
-        <h2>Shop with us from ANYWHERE, and we deliver EVERYWHERE</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit accusantium aliquam tempore, quidem incidunt eius.</p>
-      </div>
-      <div class="col-md-7">
-        <input class="search-items" type="text">
-        <a class="btn btn-outline" href="results.html">SEARCH</a>
+      <div class="col-12 pt-3 search-section text-center ">
+        <div class="pt-5">
+          <h2>Guitar Rhythm Cloud</h2>
+          <p>We are happy to serve customers worldwide, indulge yourself with the latest gear, crafted just for you.</p>
+        </div>
+        <div class="look-up pb-5 d-flex justify-content-center">
+          <div class="see-all p-2 border-right">
+            <h6><i class="fas fa-chevron-down"></i> All Categories</h6>
+          </div>
+          <div class="see-all">
+            <input class="search-items" type="text" placeholder="   Search products...">
+          </div>
+          <div class="see-all p-2 border-left">
+            <h6>San Francisco</h6>
+          </div>
+          <div class="bg-dark ml-2 p-2">
+            <a class="text-white" href="results.html">SEARCH</a>
+          </div>
+
+
+        </div>
       </div>
     </div>
+    <h6 class="row-title">NEW ARRIVAL</h6>
+    <!-- 2 column section -->
+    <div class="row hot-ad container pt-4 ml-auto mr-auto position-relative">
+
+      <div class="col-md-4 pl-4">
+        <img class="img-fluid position-relative" src="images/image1.jpeg" alt="">
+        <div class="arrows position-absolute text-center">
+          <i class="fas fa-chevron-left"></i>&nbsp;
+          <i class="fas fa-chevron-right"></i>
+        </div>
+
+      </div>
+      <div class="col-md-8">
+        <h4><a href="">IRIN R-700 Headless Electric Guitar</a> </h4>
+        <p>23" smart concert ukulele for beginners, a ideal musical gift for family, friends and ukulele learners. Grade
+          A spruce top board, European maple wood side & back board, Italian bridge, exquisite workmanship and excellent
+          sound quality. play locations, you can follow the light to play the ukulele, easy and quick learning.</p>
+        <h5>By: <span>Helvetica</span></h5>
+        <h5>Location: <span>San Francisco</span></h5>
+        <div class="price-details pt-2">
+          <a href=""><span class="price">$1000</span></a><a href=""><span class="details"><i
+                class="fas fa-shopping-cart"></i> Purchase details</span></a>
+        </div>
+      </div>
+      <div class="both-icons position-absolute" id="left"><a href=""><i class="fas fa-chevron-circle-left"></i></a>
+      </div>
+      <div class="both-icons position-absolute" id="right"><a href=""><i class="fas fa-chevron-circle-right"></i></a>
+      </div>
+    </div>
+
+
 
     <!-- End Slider/Search section -->
 
     <!-- Products section -->
-    <div class="row">
-      <div class="col-md-3" >
-        <img src="" alt="products">
-        <h4>Title</h4>
-        <p>Details of the product selected</p>
+    <h6 class="row-title">ACOUSTIC GUITARS</h6>
+    <div class="row pt-2 container ml-auto mr-auto">
+
+      <div class="col-md-3 pr-2 pl-1 m-0">
+        <div class="card h-100">
+          <img class="card-img-top"
+            src="https://www.bettermusic.com.au/media/catalog/product/cache/1/image/1224x/9df78eab33525d08d6e5fb8d27136e95/0/1/01_0001.jpg"
+            alt="products">
+          <div class="card-body">
+
+            <p class="card-text">Rogue RA-090 Concert Acoustic Guitar</p>
+            <h4 class="card-title">New</h4>
+            <div class="cart d-flex justify-content-between">
+              <a class="btn btn-outline-dark" href="results.html"><i class="fas fa-plus"></i></a>
+              <span>$1000</span>
+            </div>
+          </div>
+        </div>
       </div>
 
-      <div class="col-md-3">
-        <img src="" alt="products">
-        <h4>Title</h4>
-        <p>Details of the product selected</p>
+      <div class="col-md-3 pr-2 pl-2 m-0">
+        <div class="card h-100">
+          <img class="card-img-top"
+            src="https://cdn.shopify.com/s/files/1/0076/8783/1605/products/65_27108596-1fd9-49e5-b26b-8eb6d6125289_1024x.jpg?v=1572033853"
+            alt="products">
+          <div class="card-body">
+
+            <p class="card-text">D'Angelico Series DC Boardwalk Semi-Hollow Electric Guitar
+            </p>
+            <h4 class="card-title">New</h4>
+            <div class="cart d-flex justify-content-between">
+              <a class="btn btn-outline-dark" href="results.html"><i class="fas fa-plus"></i></a>
+              <span>$1000</span>
+            </div>
+          </div>
+        </div>
       </div>
 
-      <div class="col-md-3">
-        <img src="" alt="products">
-        <h4>Title</h4>
-        <p>Details of the product selected</p>
+      <div class="col-md-3 pr-2 pl-2 m-0">
+        <div class="card h-100">
+          <img class="card-img-top"
+            src="https://deanguitarsaustralia.com.au/wp-content/uploads/2019/08/bass-guitars.png" alt="products">
+          <div class="card-body">
+
+            <p class="card-text">D'Angelico Series EXL-1 Hollow body Electric Guitar with Tailpiece</p>
+            <h4 class="card-title">Used</h4>
+            <div class="cart d-flex justify-content-between">
+              <a class="btn btn-outline-dark" href="results.html"><i class="fas fa-plus"></i></a>
+              <span>$1000</span>
+            </div>
+          </div>
+        </div>
       </div>
 
-      <div class="col-md-3">
-        <img src="" alt="products">
-        <h4>Title</h4>
-        <p>Details of the product selected</p>
+      <div class="col-md-3 pr-0 pl-2 m-0">
+        <div class="card h-100">
+          <img class="card-img-top"
+            src="https://lh3.googleusercontent.com/proxy/U-wPYsRCvPb3UO_yYp8T-KTdli0AShfnrL9ddsSyslso82SPuPYJmGKDCVVOWVJ5DVTsd1JvzMtNzHcX4wioLGVnqXxYIL6qW6RiUln7y1hy-dwKmz53QE4ukKCXDAw"
+            alt="products">
+          <div class="card-body">
+
+            <p class="card-text">Rogue RD80PK Dreadnought Acoustic Guitar Pack</p>
+            <h4 class="card-title">New</h4>
+            <div class="cart d-flex justify-content-between">
+              <a class="btn btn-outline-dark" href="results.html"><i class="fas fa-plus"></i></a>
+              <span>$1000</span>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
+    <h6 class="row-title">ELECTRIC GUITARS</h6>
+    <div class="row pt-2 container ml-auto mr-auto">
+      <div class="col-md-3 pr-2 pl-0 m-0">
+        <div class="card h-100">
+          <img class="card-img-top"
+            src="https://media.guitarcenter.com/is/image/MMGS7/RA-090-Dreadnought-Acoustic-Guitar-Sunburst/423794000027000-00-220x220.jpg"
+            alt="products">
+          <div class="card-body">
 
-    <div class="row">
-      <div class="col-md-3" >
-        <img src="" alt="products">
-        <h4>Title</h4>
-        <p>Details of the product selected</p>
+            <p class="card-text">Rogue RR100 Rocketeer Electric Guitar
+            </p>
+            <h4 class="card-title">Used</h4>
+            <div class="cart d-flex justify-content-between">
+              <a class="btn btn-outline-dark" href="results.html"><i class="fas fa-plus"></i></a>
+              <span>$1000</span>
+            </div>
+          </div>
+        </div>
       </div>
 
-      <div class="col-md-3">
-        <img src="" alt="products">
-        <h4>Title</h4>
-        <p>Details of the product selected</p>
+      <div class="col-md-3 pr-2 pl-2 m-0">
+        <div class="card h-100">
+          <img class="card-img-top"
+            src="https://cdn.imgbin.com/0/10/1/imgbin-golden-guitar-ugCYVrvb0WmwPh4zH02MSG957.jpg" alt="products">
+          <div class="card-body">
+
+            <p class="card-text">Rainsong Black Ice Series Graphite Acoustic-Electric Guitar</p>
+            <h4 class="card-title">New</h4>
+            <div class="cart d-flex justify-content-between">
+              <a class="btn btn-outline-dark" href="results.html"><i class="fas fa-plus"></i></a>
+              <span>$1000</span>
+            </div>
+          </div>
+        </div>
       </div>
 
-      <div class="col-md-3">
-        <img src="" alt="products">
-        <h4>Title</h4>
-        <p>Details of the product selected</p>
+      <div class="col-md-3 pr-2 pl-2 m-0">
+        <div class="card h-100">
+          <img class="card-img-top"
+            src="https://purepng.com/public/uploads/medium/purepng.com-electric-guitarelectric-guitarsteelstringselectrical-1421526493496bkub4.png"
+            alt="products">
+          <div class="card-body">
+
+            <p class="card-text">Mitchell MD200 Double Cutaway Electric Guitar</p>
+            <h4 class="card-title">New</h4>
+            <div class="cart d-flex justify-content-between">
+              <a class="btn btn-outline-dark" href="results.html"><i class="fas fa-plus"></i></a>
+              <span>$1000</span>
+            </div>
+          </div>
+        </div>
       </div>
 
-      <div class="col-md-3">
-        <img src="" alt="products">
-        <h4>Title</h4>
-        <p>Details of the product selected</p>
+      <div class="col-md-3 pr-0 pl-2 m-0">
+        <div class="card h-100">
+          <img class="card-img-top"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQ7xAodjCuKAZ0EikS5q5LYFQG6UGVpBPQhHg&usqp=CAU"
+            alt="products">
+          <div class="card-body">
+
+            <p class="card-text">Mitchell T331 Solid Mahogany Dreadnought Acoustic Guitar</p>
+            <h4 class="card-title">Used</h4>
+            <div class="cart d-flex justify-content-between">
+              <a class="btn btn-outline-dark" href="results.html"><i class="fas fa-plus"></i></a>
+              <span>$1000</span>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
 
     <!-- End Product section -->
 
+
+
     <!-- Latest products -->
-    <div class="row">
-      <div class="col-md-3" >
-        <img src="" alt="products">
-        <h4>Title</h4>
-        <p>Details of the product selected</p>
+    <h6 class="row-title">LATEST ARRIVALS</h6>
+    <div class="row pt-2 container ml-auto mr-auto">
+      <div class="col-md-3 pr-2 pl-0 m-0">
+        <div class="card h-100">
+          <img class="card-img-top"
+            src="https://www.bettermusic.com.au/media/catalog/product/cache/1/image/1224x/9df78eab33525d08d6e5fb8d27136e95/0/1/01_0001.jpg"
+            alt="products">
+          <div class="card-body">
+
+            <p class="card-text">Details of the product selected</p>
+            <h4 class="card-title">New</h4>
+            <div class="cart d-flex justify-content-between">
+              <a class="btn btn-outline-dark" href="results.html"><i class="fas fa-plus"></i></a>
+              <span>$1000</span>
+            </div>
+          </div>
+        </div>
       </div>
 
-      <div class="col-md-3">
-        <img src="" alt="products">
-        <h4>Title</h4>
-        <p>Details of the product selected</p>
+      <div class="col-md-3 pr-2 pl-2 m-0">
+        <div class="card h-100">
+          <img class="card-img-top"
+            src="https://www.bettermusic.com.au/media/catalog/product/cache/1/image/1224x/9df78eab33525d08d6e5fb8d27136e95/0/1/01_0001.jpg"
+            alt="products">
+          <div class="card-body">
+
+            <p class="card-text">Details of the product selected</p>
+            <h4 class="card-title">New</h4>
+            <div class="cart d-flex justify-content-between">
+              <a class="btn btn-outline-dark" href="results.html"><i class="fas fa-plus"></i></a>
+              <span>$1000</span>
+            </div>
+          </div>
+        </div>
       </div>
 
-      <div class="col-md-3">
-        <img src="" alt="products">
-        <h4>Title</h4>
-        <p>Details of the product selected</p>
+      <div class="col-md-3 pr-2 pl-2 m-0">
+        <div class="card h-100">
+          <img class="card-img-top"
+            src="https://www.bettermusic.com.au/media/catalog/product/cache/1/image/1224x/9df78eab33525d08d6e5fb8d27136e95/0/1/01_0001.jpg"
+            alt="products">
+          <div class="card-body">
+
+            <p class="card-text">Details of the product selected</p>
+            <h4 class="card-title">New</h4>
+            <div class="cart d-flex justify-content-between">
+              <a class="btn btn-outline-dark" href="results.html"><i class="fas fa-plus"></i></a>
+              <span>$1000</span>
+            </div>
+          </div>
+        </div>
       </div>
 
-      <div class="col-md-3">
-        <img src="" alt="products">
-        <h4>Title</h4>
-        <p>Details of the product selected</p>
+      <div class="col-md-3 pr-0 pl-2 m-0">
+        <div class="card h-100">
+          <img class="card-img-top"
+            src="https://www.bettermusic.com.au/media/catalog/product/cache/1/image/1224x/9df78eab33525d08d6e5fb8d27136e95/0/1/01_0001.jpg"
+            alt="products">
+          <div class="card-body">
+
+            <p class="card-text">Details of the product selected</p>
+            <h4 class="card-title">New</h4>
+            <div class="cart d-flex justify-content-between">
+              <a class="btn btn-outline-dark" href="results.html"><i class="fas fa-plus"></i></a>
+              <span>$1000</span>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
 
     <!-- End of latest products -->
 
-    <!-- Slider -->
-    <div >
-      <div></div>
-      <div></div>
-      <div></div>
-    </div>
-
-</main>
+  </main>
   <!-- End main -->
-
+  
   <!-- Start footer -->
-  <footer class="container">
-    <div class="social">
-      <ul class="d-flex">
-        <li>
-          <a href="#"><i class="fab fa-twitter"></i></a>
-          <a href="#"><i class="fab fa-facebook-f"></i></a>
-          <a href="#"><i class="fab fa-instagram"></i></a>
-        </li>
+  <footer class="container-fluid pt-4">
+    <hr>
+    <div class="location row container ml-auto mr-auto">
+      <div class="col-md-6">
+        <h4>Guitar Rhythm Cloud</h4>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore sit pariatur consequatur praesentium
+          dicta omnis officia, magni rem quae repellat explicabo, soluta quam possimus quasi harum minus nemo aspernatur
+          voluptatibus? Incidunt odit neque voluptatibus. Porro veritatis deleniti impedit aperiam quaerat!</p>
+      </div>
+      <div class="col-md-2">
+        <h4>Customer Account</h4>
+        <ul>
+          <li><a href="">Order History</a></li>
+          <li><a href="">Returns</a></li>
+          <li><a href="">Email preferences</a></li>
+        </ul>
+      </div>
+      <div class="col-md-2">
+        <h4>Presentations</h4>
+        <ul>
+          <li><a href="">Show Room</a></li>
+          <li><a href="">Press</a> </li>
+        </ul>
+      </div>
+      <div class="col-md-2">
+        <h4>Support</h4>
+        <ul>
+          <li><a href="">Service & Support</a></li>
+          <li><a href="">About</a></li>
+          <li><a href="">Careers</a></li>
+          <li><a href="">Branches</a></li>
+          <li><a href="">Report</a></li>
+
+        </ul>
+      </div>
+    </div>
+    <hr>
+    <div class="footer-bottom container">
+      <ul class="d-flex justify-content-around pt-3">
+        <li> &#169; Copyright Sudo Musical Center All Rights Reserved</li>
+        <li><a href="">Terms of Use</a> </li>
+        <li><a href="">Your Privacy Rights</a> </li>
+        <li><a href="">Purchase Terms & Conditions</a> </li>
+        <li><a href="">Shipping Terms & Conditions</a> </li>
       </ul>
     </div>
-    <div class="location"></div>
 
   </footer>
-  
+
   <!-- End footer -->
 
-  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+    crossorigin="anonymous"></script>
 
 </body>
+
 </html>

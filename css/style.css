@@ -6,12 +6,156 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
-p {
+p,
+li a {
   color: #888888;
+}
+
+a:hover {
+  text-decoration: none;
 }
 
 h3,
 h4 {
   color: #383838;
+}
+
+nav {
+  background-color: #383838;
+  font-size: 1rem;
+}
+
+nav ul li {
+  list-style: none;
+}
+
+nav ul li i {
+  padding-top: 2rem;
+}
+
+nav a {
+  color: #888888;
+}
+
+nav .user a {
+  color: #888888;
+}
+
+main .search-items {
+  border: 1px solid white;
+  height: 2.4rem;
+  border-radius: 5px;
+  width: 20rem;
+}
+
+main .slogan {
+  color: #d35266;
+}
+
+main .search-section {
+  background-color: #d35266;
+  height: 20rem;
+}
+
+main .search-section h2,
+main .search-section p {
+  color: white;
+}
+
+main .see-all {
+  background-color: white;
+}
+
+main .hot-ad .arrows {
+  width: 3rem;
+  background-color: #888888;
+  bottom: 0;
+  right: 4%;
+  color: #d35266;
+}
+
+main .hot-ad .both-icons {
+  font-size: 2rem;
+  color: #d35266;
+}
+
+main .hot-ad #left {
+  left: 0;
+  top: 50%;
+}
+
+main .hot-ad #right {
+  right: 0;
+  top: 50%;
+}
+
+main .hot-ad h5 {
+  font-size: 14px;
+}
+
+main .hot-ad h5 span {
+  font-size: 13px;
+}
+
+main .hot-ad p {
+  font-size: 15px;
+}
+
+main .hot-ad .price-details .price {
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+main .hot-ad .price-details .details {
+  border-left: 1px solid white;
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+main .hot-ad .price-details span {
+  background-color: #d35266;
+  color: white;
+  padding: 0.6rem;
+}
+
+main .row-title {
+  padding: 1rem 0 0 8rem;
+}
+
+main .carousel-item {
+  height: 100%;
+  min-height: 350px;
+  background: no-repeat center center scroll;
+  background-size: cover;
+}
+
+main .card .card-title {
+  color: #d35266;
+  font-size: 14px;
+}
+
+main .card .card-text {
+  font-size: 14px;
+}
+
+main .card .cart span {
+  color: #d35266;
+  font-weight: 900;
+}
+
+footer li,
+footer p {
+  font-size: 14px;
+}
+
+footer ul {
+  list-style: none;
+}
+
+footer h4 {
+  color: #d35266;
+  font-size: 16px;
+  border-bottom: 1px solid #d35266;
+  padding-bottom: 0.5rem;
 }
 /*# sourceMappingURL=style.css.map */
