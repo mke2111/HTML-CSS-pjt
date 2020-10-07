@@ -54,10 +54,6 @@ main .single .left-img {
   background-repeat: no-repeat;
 }
 
-main .single .left-img img {
-  height: 190px;
-}
-
 main .single .left-img .arrow-bottom {
   bottom: 0;
   right: 0;

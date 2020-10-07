@@ -6,6 +6,7 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
+a,
 p,
 li a {
   color: #888888;
@@ -65,27 +66,37 @@ main .see-all {
   background-color: white;
 }
 
-main .hot-ad .arrows {
-  width: 3rem;
-  background-color: #888888;
-  bottom: 0;
-  right: 4%;
-  color: #d35266;
-}
-
-main .hot-ad .both-icons {
+main .both-icons {
   font-size: 2rem;
   color: #d35266;
-}
-
-main .hot-ad #left {
-  left: 0;
   top: 50%;
 }
 
-main .hot-ad #right {
+main .left {
+  left: -10px;
+}
+
+main .right {
+  right: -10px;
+}
+
+main .hot-ad .left-img {
+  padding: 0;
+  height: 12rem;
+  width: 100%;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+main .hot-ad .left-img .arrow-bottom {
+  bottom: 0;
   right: 0;
-  top: 50%;
+  width: 3rem;
+  height: 1.3rem;
+  background-color: #888888;
+  color: #d35266;
+  position: absolute;
 }
 
 main .hot-ad h5 {
