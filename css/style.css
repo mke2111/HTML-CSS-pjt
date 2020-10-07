@@ -9,7 +9,7 @@
 a,
 p,
 li a {
-  color: #888888;
+  color: #383838;
 }
 
 a:hover {
@@ -42,14 +42,16 @@ nav .user a {
   color: #888888;
 }
 
+main h6 span {
+  font-size: 12px;
+  padding-left: 1rem;
+  color: #888888;
+}
+
 main .search-items {
   border: 1px solid white;
   height: 2.4rem;
   border-radius: 5px;
-}
-
-main .slogan {
-  color: #d35266;
 }
 
 main .search-section {
@@ -68,8 +70,16 @@ main .see-all {
 
 main .both-icons {
   font-size: 2rem;
-  color: #d35266;
   top: 50%;
+}
+
+main .both-icons a {
+  color: #383838;
+}
+
+main #round1,
+main #round2 {
+  color: #d35266;
 }
 
 main .left {
@@ -86,6 +96,14 @@ main .pop-up {
   font-size: 10px;
   -webkit-text-decoration: #383838;
           text-decoration: #383838;
+}
+
+main .hot-ad h4 a {
+  color: #d35266;
+}
+
+main .hot-ad h5 span {
+  color: #888888;
 }
 
 main .hot-ad .left-img {
@@ -140,11 +158,9 @@ main .row-title {
   padding: 1rem 0 0 8rem;
 }
 
-main .carousel-item {
-  height: 100%;
-  min-height: 350px;
-  background: no-repeat center center scroll;
-  background-size: cover;
+main .card h6 {
+  color: #888888;
+  font-size: 12px;
 }
 
 main .card .card-title {
