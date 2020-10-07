@@ -8,6 +8,7 @@
     integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
   <script src="https://kit.fontawesome.com/06aa7828ae.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/result.css">
 
   <title>Online-Shop</title>
 </head>
@@ -32,7 +33,7 @@
   </header>
 
   <!-- End Header -->
-  <main>
+  <main class="container-fluid">
     <div class="row ">
       <div class="col-12 pt-3 search-section text-center ">
         <div class="pt-5">
@@ -53,6 +54,75 @@
             <a class="text-white" href="results.html">SEARCH</a>
           </div>
 
+
+        </div>
+      </div>
+    </div>
+    <!-- Categories section -->
+
+    <!-- left column -->
+    <div class="row container ml-auto mr-auto ">
+      <div class="col-md-3 pt-5">
+        <form action="POST">
+          <input type="checkbox" name="rent" id="rent"><label for="rent"> Rent</label>&nbsp; &nbsp;
+          <input type="checkbox" name="own" id="own"><label for="own">Ownership</label>
+
+          <h4>Type</h4>
+          <hr>
+          <ul>
+            <li><input type="checkbox" name="place" id="place"><label for="place"> Bass</label></li>
+            <li><input type="checkbox" name="room" id="room"><label for="room"> Acoustic</label></li>
+            <li><input type="checkbox" name="rent" id="rent"><label for="rent">Electric</label></li>
+          </ul>
+ 
+          <h4>Size</h4>
+          <hr>
+          <ul>
+            <li><input type="checkbox" name="place" id="place"><label for="place">Entire place</label></li>
+            <li><input type="checkbox" name="room" id="room"><label for="room">Private room</label></li>
+            <li><input type="checkbox" name="rent" id="rent"><label for="rent">Rent</label></li>
+          </ul>
+
+          <h4>price Range</h4>
+          <hr>
+          <ul>
+            <li><input type="checkbox" name="place" id="place"><label for="place">$450 - $800</label></li>
+            <li><input type="checkbox" name="room" id="room"><label for="room">$800 - $1200</label></li>
+            <li><input type="checkbox" name="rent" id="rent"><label for="rent">$1200 - $2500</label></li>
+            <li><input type="checkbox" name="rent" id="rent"><label for="rent">+$2500</label></li>
+          </ul>
+
+        </form>
+      </div>
+
+      <!-- End of left column -->
+
+      <!-- Right column -->
+      <div class="col-md-9 border-right border-left">
+        <p class="pt-5">1234 Results for "Guitar" Search at San Francisco in Category Real Estate</p>
+
+        <div class="row hot-ad pt-4 ml-auto mr-auto position-relative">
+
+          <div class="col-md-4 pl-4">
+            <img class="img-fluid position-relative" src="images/image1.jpeg" alt="">
+            <div class="arrows position-absolute text-center">
+              <i class="fas fa-chevron-left"></i>&nbsp;
+              <i class="fas fa-chevron-right"></i>
+            </div>
+    
+          </div>
+          <div class="col-md-8">
+            <h4><a href="">IRIN R-700 Headless Electric Guitar</a> </h4>
+            <p>23" smart concert ukulele for beginners, a ideal musical gift for family, friends and ukulele learners. Grade
+              A spruce top board, European maple wood side & back board, Italian bridge, exquisite workmanship and excellent
+              sound quality. play locations, you can follow the light to play the ukulele, easy and quick learning.</p>
+            <h5>By: <span>Helvetica</span></h5>
+            <h5>Location: <span>San Francisco</span></h5>
+            <div class="price-details pt-2">
+              <a href=""><span class="price">$1000</span></a><a href=""><span class="details"><i
+                    class="fas fa-shopping-cart"></i> Purchase details</span></a>
+            </div>
+          </div>
 
         </div>
       </div>
@@ -92,12 +162,6 @@
   <!-- End of related products -->
 
   <!-- Slider -->
-  <div>
-    <div></div>
-    <div></div>
-    <div></div>
-  </div>
-
 
   <!-- End main -->
   <hr>
