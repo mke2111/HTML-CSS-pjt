@@ -14,8 +14,18 @@ p {
   font-size: 14px;
 }
 
+.red-clr {
+  color: #d35266;
+}
+
 main .search-section {
   padding-left: 5rem;
+}
+
+main label,
+main p,
+main span {
+  color: #888888;
 }
 
 main label {
@@ -34,6 +44,8 @@ main form ul {
 
 main form h4 {
   font-size: 1.2rem;
+  color: #383838;
+  font-weight: bold;
 }
 
 main .single h4 {
@@ -66,5 +78,20 @@ main .single .left-img .arrow-bottom {
 
 main .single .single-details {
   padding-top: 1rem;
+}
+
+main .single .single-details h4 {
+  font-weight: bolder;
+}
+
+main .single:hover {
+  -webkit-box-shadow: 1px 0px 5px 6px rgba(209, 61, 110, 0.14);
+  box-shadow: 1px 0px 5px 6px rgba(209, 61, 110, 0.14);
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+  z-index: 999;
+  background-color: white;
 }
 /*# sourceMappingURL=result.css.map */

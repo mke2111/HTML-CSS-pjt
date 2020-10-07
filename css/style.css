@@ -158,6 +158,11 @@ main .row-title {
   padding: 1rem 0 0 8rem;
 }
 
+main .card {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
 main .card h6 {
   color: #888888;
   font-size: 12px;
@@ -175,6 +180,16 @@ main .card .card-text {
 main .card .cart span {
   color: #d35266;
   font-weight: 900;
+}
+
+main .card:hover {
+  -webkit-box-shadow: 1px 0px 5px 6px rgba(209, 61, 110, 0.14);
+  box-shadow: 1px 0px 5px 6px rgba(209, 61, 110, 0.14);
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+  z-index: 999;
 }
 
 footer li,

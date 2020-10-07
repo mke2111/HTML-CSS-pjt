@@ -2,7 +2,6 @@ $light-color: #888888;
 $dark-color: #383838;
 $primary-color: #d35266;
 
-
 * {
   box-sizing: border-box;
   margin: 0;
@@ -15,6 +14,7 @@ p,
 li a {
   color: $dark-color;
 }
+
 a:hover {
   text-decoration: none;
 }
@@ -27,7 +27,6 @@ h4 {
 nav {
   background-color: $dark-color;
   font-size: 1rem;
-
 
   ul {
     li {
@@ -60,17 +59,18 @@ main {
       color: $light-color;
     }
   }
+
   .search-items {
     border: 1px solid white;
     height: 2.4rem;
     border-radius: 5px;
     // width: 20rem;
   }
-  
+
   .search-section {
     background-color: $primary-color;
     height: 20rem;
-    
+
     h2,
     p {
       color: white;
@@ -89,12 +89,11 @@ main {
     a {
       color: $dark-color;
     }
-
   }
 
   #round1,
   #round2 {
-      color: $primary-color;
+    color: $primary-color;
   }
 
   .left {
@@ -109,7 +108,6 @@ main {
     width: 5rem;
     height: 4rem;
     font-size: 10px;
-    // background-color: $light-color;
     text-decoration: $dark-color;
   }
 
@@ -125,6 +123,7 @@ main {
         color: $light-color;
       }
     }
+
     .left-img {
       padding: 0;
       height: 12rem;
@@ -142,10 +141,7 @@ main {
         color: $primary-color;
         position: absolute;
       }
-
-
     }
-
 
     h5 {
       font-size: 14px;
@@ -158,19 +154,19 @@ main {
     p {
       font-size: 15px;
     }
-    .price-details {
 
+    .price-details {
       .price {
         border-bottom-left-radius: 10px;
         border-top-left-radius: 10px;
       }
-  
+
       .details {
         border-left: 1px solid white;
         border-bottom-right-radius: 10px;
         border-top-right-radius: 10px;
       }
-  
+
       span {
         background-color: $primary-color;
         color: white;
@@ -183,7 +179,6 @@ main {
     padding: 1rem 0 0 8rem;
   }
 
-
   .card {
     h6 {
       color: $light-color;
@@ -194,7 +189,7 @@ main {
       color: $primary-color;
       font-size: 14px;
     }
-  
+
     .card-text {
       font-size: 14px;
     }
@@ -205,12 +200,24 @@ main {
         font-weight: 900;
       }
     }
+
+    transition: 0.5s;
   }
 
-
+  .card:hover {
+    -webkit-box-shadow: 1px 0px 5px 6px rgba(209,61,110,0.14);
+    -moz-box-shadow: 1px 0px 5px 6px rgba(209,61,110,0.14);
+    box-shadow: 1px 0px 5px 6px rgba(209,61,110,0.14);
+    // width: 110%;
+    transform: scale(1.2);
+    transition: all 0.5s ease-in-out;
+    z-index: 999;
+    
+  }
 }
 
 footer {
+
   li,
   p {
     font-size: 12px;
@@ -234,7 +241,6 @@ footer {
   header {
     .features {
       font-size: 14px
-
     }
 
     .disa {
