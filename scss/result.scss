@@ -11,6 +11,55 @@ $primary-color: #d35266;
 }
 
 
-label {
-  padding-left: 0.8rem;
+main {
+  // left column
+  label {
+    padding-left: 0.8rem;
+  }
+
+  // right column
+
+  .single {
+    .left-img {
+      padding: 0;
+      position: relative;
+      background: center center cover;
+  
+      // .nn {
+      //   height: 230px;
+      //   width: 265px;
+      // }
+  
+      .arrow-bottom {
+        bottom: 0;
+        right: 0;
+        width: 3rem;
+        background-color: $light-color;
+        color: $primary-color;
+        position: absolute;
+      }
+
+      .single-details {
+
+
+
+      }
+
+
+  }
+
+  }
+  h4 {
+    font-size: 14px;
+  }
+
+  p,
+  h5,
+  span {
+    font-size: 14px;
+  }
+  
+
 }
+
+

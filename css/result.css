@@ -6,7 +6,32 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
-label {
+main label {
   padding-left: 0.8rem;
+}
+
+main .single .left-img {
+  padding: 0;
+  position: relative;
+  background: center center cover;
+}
+
+main .single .left-img .arrow-bottom {
+  bottom: 0;
+  right: 0;
+  width: 3rem;
+  background-color: #888888;
+  color: #d35266;
+  position: absolute;
+}
+
+main h4 {
+  font-size: 14px;
+}
+
+main p,
+main h5,
+main span {
+  font-size: 14px;
 }
 /*# sourceMappingURL=result.css.map */
