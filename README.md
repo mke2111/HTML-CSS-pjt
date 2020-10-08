@@ -21,6 +21,10 @@ Inspiration for the design is entirely from the developer/author basing on the l
 
 [Live Demo Link](https://rawcdn.githack.com/Janluc/Newsweek-Clone/9197394ca6086876e896c8302ca800909b86da6c/index.html)
 
+## Live Video
+
+[Live Video Link](https://www.loom.com/share/4ed51214739d427c821d72a77d5617a3)
+
 
 ## Getting Started
 
@@ -48,6 +52,11 @@ To get a local copy up and running follow these simple example steps.
 Contributions, issues, and feature requests are welcome!
 
 Feel free to check the [issues page](https://github.com/mke2111/HTML-CSS-pjt/issues).
+
+## Acknowledgement
+
+The Zattix design by Mohammed Awad
+
 
 ## Show your support
 
