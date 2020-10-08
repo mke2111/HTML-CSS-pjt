@@ -19,11 +19,11 @@ Inspiration for the design is entirely from the developer/author basing on the l
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/mke2111/HTML-CSS-pjt/f9a0e19cf05f4d7792e6cd1288f27494a95040f0/index.html)
+[Live Demo Link](https://rawcdn.githack.com/mke2111/HTML-CSS-pjt/6173bcbe98ac5e4eff77bee9a4a47c82a67cbce3/index.html)
 
-## Live Video
+## Video Presentation
 
-[Live Video Link](https://www.loom.com/share/4ed51214739d427c821d72a77d5617a3)
+[Video Link](https://www.loom.com/share/4ed51214739d427c821d72a77d5617a3)
 
 
 ## Getting Started
