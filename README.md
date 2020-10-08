@@ -19,7 +19,7 @@ Inspiration for the design is entirely from the developer/author basing on the l
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/Janluc/Newsweek-Clone/9197394ca6086876e896c8302ca800909b86da6c/index.html)
+[Live Demo Link](https://rawcdn.githack.com/mke2111/HTML-CSS-pjt/f9a0e19cf05f4d7792e6cd1288f27494a95040f0/index.html)
 
 ## Live Video
 
