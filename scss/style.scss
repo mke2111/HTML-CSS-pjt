@@ -1,4 +1,4 @@
-$light-color: #888888;
+$light-color: #888;
 $dark-color: #383838;
 $primary-color: #d35266;
 
@@ -10,43 +10,39 @@ $primary-color: #d35266;
 }
 
 @font-face {
-  font-family: 'gotham bold';
+  font-family: 'gotham bld';
   src: url('fonts/Gotham-Font/GothamBold.ttf');
   font-style: normal;
   font-weight: 900;
 }
 
 @font-face {
-  font-family: 'gotham light';
+  font-family: 'gotham lght';
   src: url('fonts/Gotham-Font/GothamLight.ttf');
   font-style: normal;
   font-weight: 500;
 }
 
 .gotham-bold {
-  font-family: "gotham bold";
+  font-family: gotham bld;
   font-weight: bolder;
 }
 
 .gotham-light {
-  font-family: 'gotham light';
+  font-family: gotham lght;
 }
 
 a,
 p,
 li a {
   color: $dark-color;
-  font-family: 'gotham light';
-}
-
-a:hover {
-  text-decoration: none;
+  font-family: gotham lght;
 }
 
 h3,
 h4 {
   color: $dark-color;
-  font-family: "gotham bold";
+  font-family: gotham bld;
 }
 
 nav {
@@ -99,7 +95,6 @@ main {
     p {
       color: white;
     }
-
   }
 
   .see-all {
@@ -143,8 +138,11 @@ main {
     }
 
     h5 {
+      font-size: 14px;
+
       span {
         color: $light-color;
+        font-size: 13px;
       }
     }
 
@@ -164,14 +162,6 @@ main {
         background-color: $light-color;
         color: $primary-color;
         position: absolute;
-      }
-    }
-
-    h5 {
-      font-size: 14px;
-
-      span {
-        font-size: 13px;
       }
     }
 
@@ -232,16 +222,13 @@ main {
     -webkit-box-shadow: 1px 0px 5px 6px rgba(209,61,110,0.14);
     -moz-box-shadow: 1px 0px 5px 6px rgba(209,61,110,0.14);
     box-shadow: 1px 0px 5px 6px rgba(209,61,110,0.14);
-    // width: 110%;
     transform: scale(1.2);
     transition: all 0.5s ease-in-out;
     z-index: 999;
-    
   }
 }
 
 footer {
-
   li,
   p {
     font-size: 12px;
@@ -249,8 +236,6 @@ footer {
 
   ul {
     list-style: none;
-
-
   }
 
   h4 {
@@ -259,6 +244,10 @@ footer {
     border-bottom: 1px solid $primary-color;
     padding-bottom: 0.5rem;
   }
+}
+
+a:hover {
+  text-decoration: none;
 }
 
 @media (max-width: 768px) {

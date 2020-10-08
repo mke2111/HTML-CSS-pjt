@@ -7,43 +7,39 @@
 }
 
 @font-face {
-  font-family: 'gotham bold';
+  font-family: 'gotham bld';
   src: url("fonts/Gotham-Font/GothamBold.ttf");
   font-style: normal;
   font-weight: 900;
 }
 
 @font-face {
-  font-family: 'gotham light';
+  font-family: 'gotham lght';
   src: url("fonts/Gotham-Font/GothamLight.ttf");
   font-style: normal;
   font-weight: 500;
 }
 
 .gotham-bold {
-  font-family: "gotham bold";
+  font-family: gotham bld;
   font-weight: bolder;
 }
 
 .gotham-light {
-  font-family: 'gotham light';
+  font-family: gotham lght;
 }
 
 a,
 p,
 li a {
   color: #383838;
-  font-family: 'gotham light';
-}
-
-a:hover {
-  text-decoration: none;
+  font-family: gotham lght;
 }
 
 h3,
 h4 {
   color: #383838;
-  font-family: "gotham bold";
+  font-family: gotham bld;
 }
 
 nav {
@@ -60,17 +56,17 @@ nav ul li i {
 }
 
 nav a {
-  color: #888888;
+  color: #888;
 }
 
 nav .user a {
-  color: #888888;
+  color: #888;
 }
 
 main h6 span {
   font-size: 12px;
   padding-left: 1rem;
-  color: #888888;
+  color: #888;
 }
 
 main .search-items {
@@ -127,8 +123,13 @@ main .hot-ad h4 a {
   color: #d35266;
 }
 
+main .hot-ad h5 {
+  font-size: 14px;
+}
+
 main .hot-ad h5 span {
-  color: #888888;
+  color: #888;
+  font-size: 13px;
 }
 
 main .hot-ad .left-img {
@@ -145,17 +146,9 @@ main .hot-ad .left-img .arrow-bottom {
   right: 0;
   width: 3rem;
   height: 1.3rem;
-  background-color: #888888;
+  background-color: #888;
   color: #d35266;
   position: absolute;
-}
-
-main .hot-ad h5 {
-  font-size: 14px;
-}
-
-main .hot-ad h5 span {
-  font-size: 13px;
 }
 
 main .hot-ad p {
@@ -189,7 +182,7 @@ main .card {
 }
 
 main .card h6 {
-  color: #888888;
+  color: #888;
   font-size: 12px;
 }
 
@@ -231,6 +224,10 @@ footer h4 {
   font-size: 16px;
   border-bottom: 1px solid #d35266;
   padding-bottom: 0.5rem;
+}
+
+a:hover {
+  text-decoration: none;
 }
 
 @media (max-width: 768px) {

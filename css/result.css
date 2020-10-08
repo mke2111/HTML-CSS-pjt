@@ -27,7 +27,7 @@ main .search-section {
 main label,
 main p,
 main span {
-  color: #888888;
+  color: #888;
   font-family: 'gotham light';
 }
 
@@ -75,7 +75,7 @@ main .single .left-img .arrow-bottom {
   right: 0;
   width: 3rem;
   height: 1.3rem;
-  background-color: #888888;
+  background-color: #888;
   color: #d35266;
   position: absolute;
 }
