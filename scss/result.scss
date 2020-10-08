@@ -11,10 +11,12 @@ $primary-color: #d35266;
 
 a {
   color: #383838;
+  font-family: 'gotham light';
 }
 
 p {
   font-size: 14px;
+  font-family: 'gotham light';
 }
 
 .red-clr {
@@ -31,6 +33,7 @@ main {
   p,
   span {
     color: $light-color;
+    font-family: 'gotham light';
   }
 
   label {
@@ -61,6 +64,7 @@ main {
 
     h4 {
       font-size: 14px;
+      font-family: 'gotham bold';
     }
 
     h5,
@@ -92,6 +96,7 @@ main {
 
       h4 {
         font-weight: bolder;
+        font-family: 'gotham bold';
       }
     }
   }
