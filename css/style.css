@@ -42,8 +42,20 @@ h4 {
   font-family: gotham bld;
 }
 
-a:hover {
-  text-decoration: none;
+footer li,
+footer p {
+  font-size: 12px;
+}
+
+footer ul {
+  list-style: none;
+}
+
+footer h4 {
+  color: #d35266;
+  font-size: 16px;
+  border-bottom: 1px solid #d35266;
+  padding-bottom: 0.5rem;
 }
 
 nav {
@@ -65,6 +77,10 @@ nav a {
 
 nav .user a {
   color: #888;
+}
+
+a:hover {
+  text-decoration: none;
 }
 
 main h6 span {
@@ -205,29 +221,13 @@ main .card .cart span {
 }
 
 main .card:hover {
-  -webkit-box-shadow: 1px 0px 5px 6px rgba(209, 61, 110, 0.14);
-  box-shadow: 1px 0px 5px 6px rgba(209, 61, 110, 0.14);
+  -webkit-box-shadow: 1px 0 5px 6px rgba(209, 61, 110, 0.14);
+  box-shadow: 1px 0 5px 6px rgba(209, 61, 110, 0.14);
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
   -webkit-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
   z-index: 999;
-}
-
-footer li,
-footer p {
-  font-size: 12px;
-}
-
-footer ul {
-  list-style: none;
-}
-
-footer h4 {
-  color: #d35266;
-  font-size: 16px;
-  border-bottom: 1px solid #d35266;
-  padding-bottom: 0.5rem;
 }
 
 @media (max-width: 768px) {

@@ -90,8 +90,8 @@ main .single .single-details h4 {
 }
 
 main .single:hover {
-  -webkit-box-shadow: 1px 0px 5px 6px rgba(209, 61, 110, 0.14);
-  box-shadow: 1px 0px 5px 6px rgba(209, 61, 110, 0.14);
+  -webkit-box-shadow: 1px 0 5px 6px rgba(209, 61, 110, 0.14);
+  box-shadow: 1px 0 5px 6px rgba(209, 61, 110, 0.14);
   -webkit-transform: scale(1.2);
           transform: scale(1.2);
   -webkit-transition: all 0.5s ease-in-out;
