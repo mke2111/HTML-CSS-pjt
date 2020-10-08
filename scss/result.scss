@@ -61,7 +61,6 @@ main {
   // right column
 
   .single {
-
     h4 {
       font-size: 14px;
       font-family: 'gotham bold';
@@ -102,10 +101,9 @@ main {
   }
 
   .single:hover {
-    -webkit-box-shadow: 1px 0px 5px 6px rgba(209,61,110,0.14);
-    -moz-box-shadow: 1px 0px 5px 6px rgba(209,61,110,0.14);
-    box-shadow: 1px 0px 5px 6px rgba(209,61,110,0.14);
-    // width: 110%;
+    -webkit-box-shadow: 1px 0px 5px 6px rgba(209, 61, 110, 0.14);
+    -moz-box-shadow: 1px 0px 5px 6px rgba(209, 61, 110, 0.14);
+    box-shadow: 1px 0px 5px 6px rgba(209, 61, 110, 0.14);
     transform: scale(1.2);
     transition: all 0.5s ease-in-out;
     z-index: 999;
