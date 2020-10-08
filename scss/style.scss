@@ -10,8 +10,8 @@ $primary-color: #d35266;
 }
 
 @font-face {
-  font-family: 'gotham bld';
-  src: url('fonts/Gotham-Font/GothamBold.ttf');
+  font-family: gothambld;
+  src: url(fonts/Gotham-Font/GothamBold.ttf);
   font-style: normal;
   font-weight: 900;
 }
@@ -24,7 +24,7 @@ $primary-color: #d35266;
 }
 
 .gotham-bold {
-  font-family: gotham bld;
+  font-family: gothambld;
   font-weight: bolder;
 }
 
@@ -42,7 +42,11 @@ li a {
 h3,
 h4 {
   color: $dark-color;
-  font-family: gotham bld;
+  font-family: gothambld;
+}
+
+a:hover {
+  text-decoration: none;
 }
 
 footer {
@@ -81,16 +85,16 @@ nav {
     color: $light-color;
   }
 
+  a:hover {
+    text-decoration: none;
+  }
+
   .user {
     a {
       // font-size: 1.5rem;
       color: $light-color;
     }
   }
-}
-
-a:hover {
-  text-decoration: none;
 }
 
 main {
