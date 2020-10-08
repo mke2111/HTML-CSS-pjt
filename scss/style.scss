@@ -2,16 +2,9 @@ $light-color: #888;
 $dark-color: #383838;
 $primary-color: #d35266;
 
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-  font-family: 'gothambld' Helvetica, Arial, sans-serif;
-}
-
 @font-face {
   font-family: 'gothambld';
-  src: url(fonts/Gotham-Font/GothamBold.ttf) format('woff2');
+  src: url('fonts/Gotham-Font/GothamBold.ttf') format('woff2');
   font-style: normal;
   font-weight: 900;
 }
@@ -23,13 +16,11 @@ $primary-color: #d35266;
   font-weight: 500;
 }
 
-.gotham-bold {
-  font-family: 'gothambld';
-  font-weight: bolder;
-}
-
-.gotham-light {
-  font-family: 'gotham lght';
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'gothambld', Helvetica, Arial, sans-serif;
 }
 
 a,
@@ -79,12 +70,8 @@ nav {
     }
   }
 
-  a {
+  .item {
     color: $light-color;
-  }
-
-  a:hover {
-    text-decoration: none;
   }
 
   .user {

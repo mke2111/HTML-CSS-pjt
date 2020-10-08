@@ -1,14 +1,6 @@
-* {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-  font-family: 'gothambld' Helvetica, Arial, sans-serif;
-}
-
 @font-face {
   font-family: 'gothambld';
-  src: url(fonts/Gotham-Font/GothamBold.ttf) format("woff2");
+  src: url("fonts/Gotham-Font/GothamBold.ttf") format("woff2");
   font-style: normal;
   font-weight: 900;
 }
@@ -20,13 +12,12 @@
   font-weight: 500;
 }
 
-.gotham-bold {
-  font-family: 'gothambld';
-  font-weight: bolder;
-}
-
-.gotham-light {
-  font-family: 'gotham lght';
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'gothambld', Helvetica, Arial, sans-serif;
 }
 
 a,
@@ -73,12 +64,8 @@ nav ul li i {
   padding-top: 2rem;
 }
 
-nav a {
+nav .item {
   color: #888;
-}
-
-nav a:hover {
-  text-decoration: none;
 }
 
 nav .user a {
