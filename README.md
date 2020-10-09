@@ -57,7 +57,7 @@ Feel free to check the [issues page](https://github.com/mke2111/HTML-CSS-pjt/iss
 
 The Zattix design by [Mohammed Awad](https://www.behance.net/M_Awad).
 
-[Demo page](https://www.behance.net/gallery/24796463/ZATTIX)
+[Demo page](https://www.behance.net/gallery/24796463/ZATTIX).
 
 
 ## Show your support
