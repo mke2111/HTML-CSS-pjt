@@ -19,7 +19,7 @@ Inspiration for the design is entirely from the developer/author basing on the l
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/mke2111/HTML-CSS-pjt/647e8cb3a3c505e7b0918b89bf4f9eeaf99475b8/index.html)
+[Live Demo Link](https://rawcdn.githack.com/mke2111/HTML-CSS-pjt/2aca795a9f95f71f8d3c5d769a1c54efb858f1a9/index.html)
 
 ## Video Presentation
 
