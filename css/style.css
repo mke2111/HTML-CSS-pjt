@@ -84,9 +84,10 @@ main h6 span {
 }
 
 main .search-items {
-  border: 1px solid white;
+  border: none;
   height: 2.4rem;
   border-radius: 5px;
+  background: transparent;
 }
 
 main .search-section {
@@ -101,6 +102,11 @@ main .search-section p {
 
 main .see-all {
   background-color: white;
+}
+
+main .look-up {
+  width: 88%;
+  margin: 0 auto;
 }
 
 main .both-icons {
@@ -226,10 +232,20 @@ main .card:hover {
 
 @media (max-width: 768px) {
   header .features {
-    font-size: 1.5rem;
+    font-size: 1rem;
+    padding-top: 0.8rem;
+    font-weight: bold;
   }
   header .disa {
     display: none;
+  }
+  .look-up {
+    font-size: 0.8rem;
+    width: 3rem;
+    margin: 0;
+  }
+  select option {
+    font-size: 10px;
   }
   .search-section h1 {
     font-size: 1.5rem;

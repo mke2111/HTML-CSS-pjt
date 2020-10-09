@@ -97,10 +97,10 @@ main {
   }
 
   .search-items {
-    border: 1px solid white;
+    border: none;
     height: 2.4rem;
     border-radius: 5px;
-    // width: 20rem;
+    background: transparent;
   }
 
   .search-section {
@@ -115,6 +115,11 @@ main {
 
   .see-all {
     background-color: white;
+  }
+
+  .look-up {
+    width: 88%;
+    margin: 0 auto;
   }
 
   .both-icons {
@@ -247,11 +252,24 @@ main {
 @media (max-width: 768px) {
   header {
     .features {
-      font-size: 1.5rem;
+      font-size: 1rem;
+      padding-top: 0.8rem;
+      font-weight: bold;
     }
-
     .disa {
       display: none;
+    }
+  }
+
+  .look-up {
+    font-size: 0.8rem;
+    width: 3rem;
+    margin: 0;
+  }
+
+  select {
+    option {
+      font-size: 10px;
     }
   }
 
