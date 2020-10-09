@@ -1,0 +1,257 @@
+@font-face {
+  font-family: 'gothambld';
+  src: url("fonts/Gotham-Font/GothamBold.ttf") format("woff2");
+  font-style: normal;
+  font-weight: 900;
+}
+
+@font-face {
+  font-family: 'gotham lght';
+  src: url("fonts/Gotham-Font/GothamLight.ttf") format("woff2");
+  font-style: normal;
+  font-weight: 500;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'gothambld', Helvetica, Arial, sans-serif;
+}
+
+a,
+p,
+li a,
+h3,
+h4 {
+  color: #383838;
+}
+
+summary h1 {
+  color: #d35266;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.footer-effect:hover {
+  color: #d35266;
+}
+
+footer li,
+footer p {
+  font-size: 12px;
+}
+
+footer ul {
+  list-style: none;
+}
+
+footer h4 {
+  color: #d35266;
+  font-size: 16px;
+  border-bottom: 1px solid #d35266;
+  padding-bottom: 0.5rem;
+}
+
+nav {
+  background-color: #383838;
+  font-size: 1rem;
+}
+
+nav ul li {
+  list-style: none;
+}
+
+nav ul li i {
+  padding-top: 2rem;
+}
+
+nav .item {
+  color: #888;
+}
+
+nav .user a {
+  color: #888;
+}
+
+main h6 span {
+  font-size: 12px;
+  padding-left: 1rem;
+  color: #888;
+}
+
+main .search-items {
+  border: none;
+  height: 2.4rem;
+  border-radius: 5px;
+  background: transparent;
+}
+
+main .search-section {
+  background-color: #d35266;
+  height: 20rem;
+}
+
+main .search-section h1,
+main .search-section p {
+  color: white;
+}
+
+main .see-all {
+  background-color: white;
+}
+
+main .look-up {
+  width: 88%;
+  margin: 0 auto;
+}
+
+main .both-icons {
+  font-size: 2rem;
+  top: 50%;
+}
+
+main .both-icons a {
+  color: #383838;
+}
+
+main #round1,
+main #round2 {
+  color: #d35266;
+}
+
+main .left {
+  left: -10px;
+}
+
+main .right {
+  right: -10px;
+}
+
+main .pop-up {
+  width: 5rem;
+  height: 4rem;
+  font-size: 10px;
+  -webkit-text-decoration: #383838;
+          text-decoration: #383838;
+}
+
+main .hot-ad h4 a {
+  color: #d35266;
+}
+
+main .hot-ad h5 {
+  font-size: 14px;
+}
+
+main .hot-ad h5 span {
+  color: #888;
+  font-size: 13px;
+}
+
+main .hot-ad .left-img {
+  padding: 0;
+  height: 12rem;
+  width: 100%;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+main .hot-ad .left-img .arrow-bottom {
+  bottom: 0;
+  right: 0;
+  width: 3rem;
+  height: 1.3rem;
+  background-color: #888;
+  color: #d35266;
+  position: absolute;
+}
+
+main .hot-ad p {
+  font-size: 15px;
+}
+
+main .hot-ad .price-details .price {
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+main .hot-ad .price-details .details {
+  border-left: 1px solid white;
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+main .hot-ad .price-details span {
+  background-color: #d35266;
+  color: white;
+  padding: 0.6rem;
+}
+
+main .row-title {
+  padding: 1rem 0 0 8rem;
+}
+
+main .card {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+main .card h6 {
+  color: #888;
+  font-size: 12px;
+}
+
+main .card .card-title {
+  color: #d35266;
+  font-size: 14px;
+}
+
+main .card .card-text {
+  font-size: 14px;
+}
+
+main .card .cart span {
+  color: #d35266;
+  font-weight: 900;
+}
+
+main .card:hover {
+  -webkit-box-shadow: 1px 0 5px 6px rgba(209, 61, 110, 0.14);
+  box-shadow: 1px 0 5px 6px rgba(209, 61, 110, 0.14);
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+  z-index: 999;
+}
+
+@media (max-width: 768px) {
+  header .features {
+    font-size: 1rem;
+    padding-top: 0.8rem;
+    font-weight: bold;
+  }
+  header .disa {
+    display: none;
+  }
+  .card-text {
+    font-size: 30px;
+  }
+  .look-up {
+    font-size: 0.8rem;
+    width: 3rem;
+    margin: 0;
+  }
+  select option {
+    font-size: 10px;
+  }
+  .search-section h1 {
+    font-size: 1.5rem;
+  }
+}
+/*# sourceMappingURL=style.css.map */

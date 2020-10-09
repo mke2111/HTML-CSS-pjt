@@ -1,0 +1,99 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+  color: #383838;
+}
+
+p {
+  font-size: 14px;
+}
+
+.red-clr {
+  color: #d35266;
+}
+
+main label,
+main p,
+main span {
+  color: #888;
+}
+
+main label {
+  padding-left: 0.8rem;
+  font-size: 1rem;
+}
+
+main form input {
+  width: 1rem;
+  height: 1rem;
+}
+
+main form ul {
+  list-style: none;
+}
+
+main form h4 {
+  font-size: 1.2rem;
+  color: #383838;
+  font-weight: bold;
+}
+
+main .single h4 {
+  font-size: 14px;
+}
+
+main .single h5,
+main .single span {
+  font-size: 14px;
+}
+
+main .single .left-img {
+  padding: 0;
+  height: 12rem;
+  width: 100%;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+main .single .left-img .arrow-bottom {
+  bottom: 0;
+  right: 0;
+  width: 3rem;
+  height: 1.3rem;
+  background-color: #888;
+  color: #d35266;
+  position: absolute;
+}
+
+main .single .single-details {
+  padding-top: 1rem;
+}
+
+main .single .single-details h4 {
+  font-weight: bolder;
+}
+
+main .single:hover {
+  -webkit-box-shadow: 1px 0 5px 6px rgba(209, 61, 110, 0.14);
+  box-shadow: 1px 0 5px 6px rgba(209, 61, 110, 0.14);
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+  z-index: 999;
+  background-color: white;
+}
+
+@media (max-width: 768px) {
+  .search-section {
+    padding-left: 1rem;
+  }
+}
+/*# sourceMappingURL=result.css.map */

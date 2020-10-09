@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <script src="https://kit.fontawesome.com/06aa7828ae.js" crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="css/style.css">
+
+  <title>Online-shop</title>
+</head>
+
+<body>
+  <!-- Start Header -->
+
+  <header class="container-fluid sticky-top">
+
+    <nav class="row align-items-center ">
+      <div class="col-3 col-md-2">
+        <a href="index.html"><img class=" img-fluid pt-2 logo" src="images/dmn.png" alt=""></a>
+      </div>
+
+      <ul class="features col-9 col-md-8 d-flex justify-content-around align-items-center">
+
+        <li><a class="active item" href="index.html"><i class="fas disa fa-home"></i> HOME</a></li>
+        <li><a class="item" href="results.html"><i class="fas disa fa-chevron-down"></i> ABOUT</a>
+        <li><a class="item" href="index.html"><i class="fas disa fa-shopping-cart"></i> BUY</a></li>
+      </ul>
+
+      <div class="user col-md-2 d-none d-md-block pt-2">
+        <a href="">RickN Morty <i class="fas fa-lg fa-user"></i></a>
+      </div>
+    </nav>
+
+  </header>
+
+  <!-- End Header -->
+
+  <!-- Start main -->
+
+  <!-- Slider/Search section -->
+  <main class="container-fluid">
+
+    <div class="row ">
+      <div class="col-12 pt-5  search-section text-center ">
+        <div class="pt-2 pl-3 ">
+          <h1>Guitar Rhythm Cloud</h1>
+          <p class="d-none d-sm-block ">We are happy to serve customers worldwide, indulge yourself with the latest gear,
+            crafted just for you.</p>
+        </div>
+        <div class=" look-up pb-5 pl-2 d-flex flex-wrap justify-content-center">
+            <div class="w-75 col-6 col-md-3 see-all p-2 mt-2 border-right">
+              <form action="POST">
+                <select name="categories" id="categories" class="custom-select border border-light">
+                  <option selected  value="category">Category:</option>
+                  <option  value="acoustic">Acoustic</option>
+                  <option  value="bass">Bass</option>
+                  <option  value="electric">Electric</option>
+                </select>
+              </form>
+            </div>
+            <div class="w-auto col-6 col-md-3 see-all pt-2 mt-2">
+              <input class="search-items" type="text" placeholder="Search products...">
+            </div>
+            <div class="w-75 col-6 col-md-3 see-all p-2 border-left mt-2">
+              <form action="POST">
+                <select name="location" id="location" class="custom-select border border-light">
+                  <option   value="location">Area:</option>
+                  <option  value="s-francisco">San Francisco</option>
+                  <option  value="cali">Califonia</option>
+                  <option  value="denver">Denver</option>
+                </select>
+              </form>
+            </div>
+          <div class="w-auto col-6 col-md-3 bg-dark pt-3 pl-2 mt-2">
+            <a class="text-white" href="results.html">SEARCH</a>
+          </div>
+
+
+        </div>
+      </div>
+    </div>
+    <h6 class="container pt-4 border-bottom pb-2 font-weight-bold gotham-bold">NEW ARRIVAL</h6>
+    <!-- 2 column section -->
+    <div class="row hot-ad container pt-4 ml-auto mr-auto position-relative">
+
+      <div class="col-md-4 pl-4">
+        <div class="left-img position-relative" style="background-image: url('images/image1.jpeg');">
+          <div class="arrow-bottom text-center">
+            <i class="fas fa-chevron-left"></i>&nbsp;
+            <i class="fas fa-chevron-right"></i>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-8">
+        <h4><a class="gotham-bold" href="">IRIN R-700 Headless Electric Guitar</a> </h4>
+        <p class="gotham-bold">23" smart concert ukulele for beginners, a ideal musical gift for family, friends and ukulele learners. Grade
+          A spruce top board, European maple wood side & back board, Italian bridge, exquisite workmanship and excellent
+          sound quality. play locations, you can follow the light to play the ukulele, easy and quick learning.</p>
+        <h5>By: <span>Helvetica</span></h5>
+        <h5>Location: <span>San Francisco</span></h5>
+        <div class="price-details pt-2">
+          <a href=""><span class="price">$1000</span></a><a href=""><span class="details"><i
+                class="fas fa-shopping-cart"></i> Purchase details</span></a>
+        </div>
+      </div>
+      <div class="both-icons left position-absolute "><a id="round1" href=""><i
+            class="fas fa-chevron-circle-left"></i></a>
+      </div>
+      <div class="both-icons right position-absolute "><a id="round2" href=""><i
+            class="fas fa-chevron-circle-right"></i></a>
+      </div>
+    </div>
+
+
+
+    <!-- End Slider/Search section -->
+
+    <!-- Products section -->
+    <h6 class="container pt-4 pb-3 border-bottom font-weight-bold"><i class="fas fa-lg fa-guitar"></i> ACOUSTIC GUITARS
+      <span>(Classic sound)</span></h6>
+
+    <div class="row pt-2 container ml-auto mr-auto pb-3 position-relative">
+
+      <div class="both-icons left position-absolute"><a href=""><i class="fas fa-chevron-left"></i></a>
+      </div>
+      <div class="both-icons right position-absolute"><a href=""><i class="fas fa-chevron-right"></i></a></div>
+
+      <div class="col-6 col-md-3 p-2 m-0">
+        <div class="card h-100">
+          <img class="card-img-top"
+            src="https://www.bettermusic.com.au/media/catalog/product/cache/1/image/1224x/9df78eab33525d08d6e5fb8d27136e95/0/1/01_0001.jpg"
+            alt="products">
+          <div class="card-body ">
+
+            <p class="card-text">Rogue RA-090 Concert Acoustic Guitar</p>
+            <h4 class="card-title">New</h4>
+            <h6>From: San Francisco</h6>
+            <div class="cart d-flex justify-content-between ">
+
+              <a class="btn btn-outline-dark" href="#pop-up" data-toggle="collapse" role="button" aria-expanded="false"
+                aria-controls="pop-up"><i class="fas fa-plus"></i></a>
+              <div class="collapse pop-up" id="pop-up">
+                <p>Add to Collection</p>
+                <p>Send a Message</p>
+                <p>More Details</p>
+              </div>
+              <span>$1000</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-6 col-md-3 p-2 m-0">
+        <div class="card h-100">
+          <img class="card-img-top"
+            src="https://cdn.shopify.com/s/files/1/0076/8783/1605/products/65_27108596-1fd9-49e5-b26b-8eb6d6125289_1024x.jpg?v=1572033853"
+            alt="products">
+          <div class="card-body ">
+
+            <p class="card-text">D'Angelico Series DC Boardwalk Semi-Hollow Electric Guitar
+            </p>
+            <h4 class="card-title">New</h4>
+            <h6>From: San Francisco</h6>
+            <div class="cart d-flex justify-content-between ">
+              <a class="btn btn-outline-dark" href="results.html"><i class="fas fa-plus"></i></a>
+              <span>$1000</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-6 col-md-3 p-2 m-0">
+        <div class="card h-100">
+          <img class="card-img-top"
+            src="https://deanguitarsaustralia.com.au/wp-content/uploads/2019/08/bass-guitars.png" alt="products">
+          <div class="card-body">
+
+            <p class="card-text">D'Angelico Series EXL-1 Hollow body Electric Guitar with Tailpiece</p>
+            <h4 class="card-title">Used</h4>
+            <h6>From: San Francisco</h6>
+            <div class="cart d-flex justify-content-between">
+              <a class="btn btn-outline-dark" href="results.html"><i class="fas fa-plus"></i></a>
+              <span>$1000</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-6 col-md-3 p-2 m-0 ">
+        <div class="card h-100">
+          <img class="card-img-top" src="https://i.pinimg.com/originals/d5/ac/89/d5ac89f229adc9ba2e4522e0b3670ef8.jpg"
+            alt="products">
+          <div class="card-body">
+
+            <p class="card-text">Jimi's nightmar. The cool distorted electric guitar.</p>
+            <h4 class="card-title">New</h4>
+            <h6>From: San Francisco</h6>
+            <div class="cart d-flex justify-content-between">
+              <a class="btn btn-outline-dark" href="results.html"><i class="fas fa-plus"></i></a>
+              <span>$1000</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <h6 class="container pt-4 border-bottom pb-2 font-weight-bold"><i class="fas fa-lg fa-guitar"></i> ELECTRIC GUITARS
+      <span>(Classic sound)</span></h6>
+
+    <div class="row pt-2 container ml-auto mr-auto pb-3 position-relative">
+
+      <div class="both-icons left position-absolute"><a href=""><i class="fas fa-chevron-left"></i></a>
+      </div>
+      <div class="both-icons right position-absolute"><a href=""><i class="fas fa-chevron-right"></i></a></div>
+
+      <div class="col-6 col-md-3 p-2 m-0">
+        <div class="card h-100">
+          <img class="card-img-top"
+            src="https://media.guitarcenter.com/is/image/MMGS7/RA-090-Dreadnought-Acoustic-Guitar-Sunburst/423794000027000-00-220x220.jpg"
+            alt="products">
+          <div class="card-body">
+
+            <p class="card-text">Rogue RR100 Rocketeer Electric Guitar
+            </p>
+            <h4 class="card-title">Used</h4>
+            <h6>From: San Francisco</h6>
+            <div class="cart d-flex justify-content-between">
+              <a class="btn btn-outline-dark" href="results.html"><i class="fas fa-plus"></i></a>
+              <span>$1000</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-6 col-md-3 p-2 m-0">
+        <div class="card h-100">
+          <img class="card-img-top"
+            src="https://cdn.imgbin.com/0/10/1/imgbin-golden-guitar-ugCYVrvb0WmwPh4zH02MSG957.jpg" alt="products">
+          <div class="card-body">
+
+            <p class="card-text">Rainsong Black Ice Series Graphite Acoustic-Electric Guitar</p>
+            <h4 class="card-title">New</h4>
+            <h6>From: San Francisco</h6>
+            <div class="cart d-flex justify-content-between">
+              <a class="btn btn-outline-dark" href="results.html"><i class="fas fa-plus"></i></a>
+              <span>$1000</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-6 col-md-3 p-2 m-0">
+        <div class="card h-100">
+          <img class="card-img-top"
+            src="https://purepng.com/public/uploads/medium/purepng.com-electric-guitarelectric-guitarsteelstringselectrical-1421526493496bkub4.png"
+            alt="products">
+          <div class="card-body">
+
+            <p class="card-text">Mitchell MD200 Double Cutaway Electric Guitar</p>
+            <h4 class="card-title">New</h4>
+            <h6>From: San Francisco</h6>
+            <div class="cart d-flex justify-content-between">
+              <a class="btn btn-outline-dark" href="results.html"><i class="fas fa-plus"></i></a>
+              <span>$1000</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-6 col-md-3 p-2 m-0">
+        <div class="card h-100">
+          <img class="card-img-top"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQ7xAodjCuKAZ0EikS5q5LYFQG6UGVpBPQhHg&usqp=CAU"
+            alt="products">
+          <div class="card-body">
+
+            <p class="card-text">Mitchell T331 Solid Mahogany Dreadnought Acoustic Guitar</p>
+            <h4 class="card-title">Used</h4>
+            <h6>From: San Francisco</h6>
+            <div class="cart d-flex justify-content-between">
+              <a class="btn btn-outline-dark" href="results.html"><i class="fas fa-plus"></i></a>
+              <span>$1000</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- End Product section -->
+
+
+
+    <!-- Latest products -->
+    <h6 class="container pt-4 border-bottom pb-2 font-weight-bold"><i class="fas fa-lg fa-guitar"></i> LATEST ARRIVALS
+      <span>(Classic sound)</span></h6>
+
+    <div class="row pt-2 container ml-auto mr-auto pb-3 position-relative">
+
+      <div class="both-icons left position-absolute"><a href=""><i class="fas fa-chevron-left"></i></a>
+      </div>
+      <div class="both-icons right position-absolute"><a href=""><i class="fas fa-chevron-right"></i></a></div>
+
+      <div class="col-6 col-md-3 p-2 m-0">
+        <div class="card h-100">
+          <img class="card-img-top"
+            src="https://media.guitarcenter.com/is/image/MMGS7/O120CESB-Auditorium-Acoustic-Electric-Guitar-3-Color-Sunburst/J51473000001000-00-1200x1200.jpg"
+            alt="products">
+          <div class="card-body">
+
+            <p class="card-text">The Yamaha APXT2 3/4 Thinline Acoustic-Electric Cutaway Guitar is a 3/4 size version of
+              Yamaha's best-selling acoustic-electric guitar.
+            </p>
+            <h4 class="card-title">New</h4>
+            <h6>From: San Francisco</h6>
+            <div class="cart d-flex justify-content-between">
+              <a class="btn btn-outline-dark" href="results.html"><i class="fas fa-plus"></i></a>
+              <span>$1000</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-6 col-md-3 p-2 m-0">
+        <div class="card h-100">
+          <img class="card-img-top"
+            src="https://target.scene7.com/is/image/Target/GUEST_9b9c742c-193c-4616-9b46-7e5898da8044?wid=488&hei=488&fmt=pjpeg"
+            alt="products">
+          <div class="card-body">
+
+            <p class="card-text">The Yamaha APXT2 3/4 Thinline Acoustic-Electric Cutaway Guitar is a 3/4 size version of
+              Yamaha's best-selling acoustic-electric guitar.
+            </p>
+            <h4 class="card-title">New</h4>
+            <h6>From: San Francisco</h6>
+            <div class="cart d-flex justify-content-between">
+              <a class="btn btn-outline-dark" href="results.html"><i class="fas fa-plus"></i></a>
+              <span>$1000</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-6 col-md-3 p-2 m-0">
+        <div class="card h-100">
+          <img class="card-img-top"
+            src="https://media.guitarcenter.com/is/image/MMGS7/MX420-Grand-Auditorium-Acoustic-Electric-Guitar-Midnight-Black-Finish/J17025000002000-00-1200x1200.jpg"
+            alt="products">
+          <div class="card-body">
+
+            <p class="card-text">The Yamaha APXT2 3/4 Thinline Acoustic-Electric Cutaway Guitar is a 3/4 size version of
+              Yamaha's best-selling acoustic-electric guitar.
+            </p>
+            <h4 class="card-title">New</h4>
+            <h6>From: San Francisco</h6>
+            <div class="cart d-flex justify-content-between">
+              <a class="btn btn-outline-dark" href="results.html"><i class="fas fa-plus"></i></a>
+              <span>$1000</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-6 col-md-3 p-2 m-0">
+        <div class="card h-100">
+          <img class="card-img-top"
+            src="https://media.musiciansfriend.com/is/image/MMGS7/APXT2-3-4-Thinline-Acoustic-Electric-Cutaway-Guitar-Black/H94648000002000-00-500x500.jpg"
+            alt="products">
+          <div class="card-body">
+
+            <p class="card-text">The Yamaha APXT2 3/4 Thinline Acoustic-Electric Cutaway Guitar is a 3/4 size version of
+              Yamaha's best-selling acoustic-electric guitar
+            </p>
+            <h4 class="card-title">New</h4>
+            <h6>From: San Francisco</h6>
+            <div class="cart d-flex justify-content-between">
+              <a class="btn btn-outline-dark" href="results.html"><i class="fas fa-plus"></i></a>
+              <span>$1000</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- End of latest products -->
+
+  </main>
+  <!-- End main -->
+
+  <!-- Start footer -->
+  <footer class="container-fluid ">
+
+    <div class="location row container ml-auto mr-auto border-top pt-4">
+      <div class="col-md-5">
+        <h1>Guitar Rhythm Cloud</h1>
+        <p>With chords and tabs for over 1,100,000 songs, Ultimate Guitar (UG) is easily the most badass and fastest growing guitarist community in the world that creates, learns and shares tabs.
+          Since 1998, founded in Kaliningrad, Russia, UG has established a strong community following with over 10 million registered users who participate in forums, contribute tabs, lessons and articles and are passionate members of all things rock'n'roll. UG also provides all of the .</p>
+      </div>
+      <div class="col-md-3">
+        <h4 class="font-weight-bold">Customer Account</h4>
+        <ul>
+          <li><a class="footer-effect" href="#">Order History</a></li>
+          <li><a class="footer-effect" href="#">Returns</a></li>
+          <li><a class="footer-effect" href="#">Email preferences</a></li>
+        </ul>
+      </div>
+      <div class="col-md-2">
+        <h4 class="font-weight-bold">Presentations</h4>
+        <ul>
+          <li><a class="footer-effect" href="#">Show Room</a></li>
+          <li><a class="footer-effect" href="#">Press</a> </li>
+        </ul>
+      </div>
+      <div class="col-md-2">
+        <h4 class="font-weight-bold">Support</h4>
+        <ul>
+          <li><a class="footer-effect" href="#">Service & Support</a></li>
+          <li><a class="footer-effect" href="#">About</a></li>
+          <li><a class="footer-effect" href="#">Careers</a></li>
+          <li><a class="footer-effect" href="#">Branches</a></li>
+          <li><a class="footer-effect" href="#">Report</a></li>
+
+        </ul>
+      </div>
+    </div>
+    <hr>
+    <div class="footer-bottom container row d-flex m-auto justify-content-between">
+      <p class="col-12 col-md-6 p-3"> &#169; Copyright Sudo Musical Center All Rights Reserved</p>
+      <ul class="col-12 col-md-6  p-3 d-flex justify-content-end">
+        <li><a href="#"><i class="fab fa-2x pr-3 fa-instagram"></i></a> </li>
+        <li><a href="#"><i class="fab fa-2x pr-3 fa-twitter"></i></a> </li>
+        <li><a href="#"><i class="fab fa-2x pr-3 fa-facebook-f"></i></a> </li>
+      </ul>
+    </div>
+
+  </footer>
+
+  <!-- End footer -->
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+    crossorigin="anonymous"></script>
+
+</body>
+
+</html>
