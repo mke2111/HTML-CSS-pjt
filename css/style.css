@@ -22,17 +22,22 @@
 
 a,
 p,
-li a {
-  color: #383838;
-}
-
+li a,
 h3,
 h4 {
   color: #383838;
 }
 
+summary h1 {
+  color: #d35266;
+}
+
 a:hover {
   text-decoration: none;
+}
+
+.footer-effect:hover {
+  color: #d35266;
 }
 
 footer li,
@@ -89,7 +94,7 @@ main .search-section {
   height: 20rem;
 }
 
-main .search-section h2,
+main .search-section h1,
 main .search-section p {
   color: white;
 }
@@ -221,10 +226,13 @@ main .card:hover {
 
 @media (max-width: 768px) {
   header .features {
-    font-size: 14px;
+    font-size: 1.5rem;
   }
   header .disa {
     display: none;
+  }
+  .search-section h1 {
+    font-size: 1.5rem;
   }
 }
 /*# sourceMappingURL=style.css.map */

@@ -17,13 +17,13 @@
   <!-- Start Header -->
 
   <header class="container-fluid sticky-top">
-    <nav class="row align-items-center">
+    <nav class="row align-items-center ">
 
       <ul class="features col-md-10 d-flex justify-content-around align-items-center">
         <li><a href="index.html"><img class="img-fluid" src="images/dmn.png" alt=""></a></li>
         <li><a class="active item" href="index.html"><i class="fas disa fa-home"></i> HOME</a></li>
-        <li><a class="item" href="results.html"><i class="fas disa fa-chevron-down"></i> COLLECTIONS</a>
-        <li><a class="item" href="index.html"><i class="fas disa fa-shopping-cart"></i> PURCHASE LIST</a></li>
+        <li><a class="item" href="results.html"><i class="fas disa fa-chevron-down"></i> ABOUT</a>
+        <li><a class="item" href="index.html"><i class="fas disa fa-shopping-cart"></i> BUY</a></li>
       </ul>
 
       <div class="user col-md-2 d-none d-md-block pt-2">
@@ -37,23 +37,37 @@
   <!-- Start main -->
   <main class="container-fluid">
     <div class="row">
-      <div class="col-12 pt-5  search-section text-left ">
-        <div class="pt-2 pl-3 ">
-          <h2>Guitar Rhythm Cloud</h2>
+      <div class="col-12 pt-3  search-section text-left ">
+        <div class="pt-1 pl-3 ">
+          <h1>Guitar Rhythm Cloud</h1>
           <p class="d-none d-sm-block">We are happy to serve customers worldwide, indulge yourself with the latest gear,
             crafted just for you.</p>
         </div>
-        <div class="look-up pb-5 pl-3 d-flex flex-wrap justify-content-start">
-          <div class="see-all p-2 border-right">
-            <h6><i class="fas fa-chevron-down"></i> &nbsp;All Categories</h6>
+        <div class="look-up pb-5 pl-3 d-flex flex-wrap justify-content-left">
+          <div class="see-all p-2 border-right mt-2">
+            <form action="POST">
+              <select name="categories" id="categories" class="custom-select border border-light">
+                <option selected  value="category">Category:</option>
+                <option  value="acoustic">Acoustic</option>
+                <option  value="bass">Bass</option>
+                <option  value="electric">Electric</option>
+              </select>
+            </form>
           </div>
-          <div class="see-all">
+          <div class="see-all pt-2 mt-2">
             <input class="search-items" type="text" placeholder="   Search products...">
           </div>
-          <div class="see-all p-2 border-left">
-            <h6>San Francisco&nbsp;</h6>
+          <div class="see-all p-2 border-left mt-2 mr-2">
+            <form action="POST">
+              <select name="location" id="location" class="custom-select border border-light">
+                <option selected  value="location">Location:</option>
+                <option  value="s-francisco">San Francisco</option>
+                <option  value="cali">Califonia</option>
+                <option  value="denver">Denver</option>
+              </select>
+            </form>
           </div>
-          <div class="bg-dark ml-2 p-2">
+          <div class="bg-dark p-3 mt-2">
             <a class="text-white" href="results.html">SEARCH</a>
           </div>
 
@@ -66,35 +80,35 @@
 
     <div class="row container ml-auto mr-auto ">
       <!-- left column -->
-      <div class="col-md-3 pt-5">
+      <aside class="col-md-3 pt-5">
         <form action="POST">
-          <input type="checkbox"><label> Rent</label>&nbsp; &nbsp;
-          <input type="checkbox"><label>Ownership</label>
+          <input type="checkbox" id="rent" name="rent"><label for="rent"> Rent</label>&nbsp; &nbsp;
+          <input type="checkbox" id="own" name="own"><label for="own">Ownership</label>
 
           <h4 class="pt-4 border-bottom pb-2">Type</h4>
           <ul>
-            <li><input type="checkbox"><label> Bass</label></li>
-            <li><input type="checkbox"><label> Acoustic</label></li>
-            <li><input type="checkbox"><label>Electric</label></li>
+            <li><input type="checkbox" id="bass" name="bass"><label for="bass"> Bass</label></li>
+            <li><input type="checkbox" id="acoustic" name="acoustic"><label for="acoustic"> Acoustic</label></li>
+            <li><input type="checkbox" id="electric" name="electric"><label for="electric">Electric</label></li>
           </ul>
 
           <h4 class="pt-4 border-bottom pb-2">Size</h4>
           <ul>
-            <li><input type="checkbox"><label>Entire place</label></li>
-            <li><input type="checkbox"><label>Private room</label></li>
-            <li><input type="checkbox"><label>Rent</label></li>
+            <li><input type="checkbox" id="place" name="place"><label for="place">Entire place</label></li>
+            <li><input type="checkbox" id="room" name="room"><label for="room">Private room</label></li>
+            <li><input type="checkbox" id="rents" name="rents"><label for="rents">Rent</label></li>
           </ul>
 
           <h4 class="pt-4 border-bottom pb-2">Price Range</h4>
           <ul>
-            <li><input type="checkbox"><label>$450 - $800</label></li>
-            <li><input type="checkbox"><label>$800 - $1200</label></li>
-            <li><input type="checkbox"><label>$1200 - $2500</label></li>
-            <li><input type="checkbox"><label>+$2500</label></li>
+            <li><input type="checkbox" id="min" name="min"><label for="min">$450 - $800</label></li>
+            <li><input type="checkbox" id="mid" name="mid"><label for="mid">$800 - $1200</label></li>
+            <li><input type="checkbox" id="max" name="max"><label for="max">$1200 - $2500</label></li>
+            <li><input type="checkbox" id="maxi" name="maxi"><label for="maxi">+$2500</label></li>
           </ul>
 
         </form>
-      </div>
+      </aside>
 
       <!-- End of left column -->
 
@@ -295,35 +309,34 @@
   <footer class="container-fluid">
 
     <div class="location row container ml-auto mr-auto">
-      <div class="col-md-5">
-        <h4>Guitar Rhythm Cloud</h4>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore sit pariatur consequatur praesentium
-          dicta omnis officia, magni rem quae repellat explicabo, soluta quam possimus quasi harum minus nemo aspernatur
-          voluptatibus? Incidunt odit neque voluptatibus. Porro veritatis deleniti impedit aperiam quaerat!</p>
-      </div>
+      <summary class="col-md-5">
+        <h1>Guitar Rhythm Cloud</h1>
+        <p>With chords and tabs for over 1,100,000 songs, Ultimate Guitar (UG) is easily the most badass and fastest growing guitarist community in the world that creates, learns and shares tabs.
+          Since 1998, founded in Kaliningrad, Russia, UG has established a strong community following with over 10 million registered users who participate in forums, contribute tabs, lessons and articles and are passionate members of all things rock'n'roll. UG also provides all of the .</p>
+      </summary>
       <div class="col-md-3">
         <h4>Customer Account</h4>
         <ul>
-          <li><a href="">Order History</a></li>
-          <li><a href="">Returns</a></li>
-          <li><a href="">Email preferences</a></li>
+          <li><a class="footer-effect" href="">Order History</a></li>
+          <li><a class="footer-effect" href="">Returns</a></li>
+          <li><a class="footer-effect" href="">Email preferences</a></li>
         </ul>
       </div>
       <div class="col-md-2">
         <h4>Presentations</h4>
         <ul>
-          <li><a href="">Show Room</a></li>
-          <li><a href="">Press</a> </li>
+          <li><a class="footer-effect" href="">Show Room</a></li>
+          <li><a class="footer-effect" href="">Press</a> </li>
         </ul>
       </div>
       <div class="col-md-2">
         <h4>Support</h4>
         <ul>
-          <li><a href="">Service & Support</a></li>
-          <li><a href="">About</a></li>
-          <li><a href="">Careers</a></li>
-          <li><a href="">Branches</a></li>
-          <li><a href="">Report</a></li>
+          <li><a class="footer-effect" href="">Service & Support</a></li>
+          <li><a class="footer-effect" href="">About</a></li>
+          <li><a class="footer-effect" href="">Careers</a></li>
+          <li><a class="footer-effect" href="">Branches</a></li>
+          <li><a class="footer-effect" href="">Report</a></li>
 
         </ul>
       </div>
@@ -332,9 +345,9 @@
     <div class="footer-bottom container row d-flex m-auto justify-content-between">
       <p class="col-12 col-md-6 p-3"> &#169; Copyright Sudo Musical Center All Rights Reserved</p>
       <ul class="col-12 col-md-6  p-3 d-flex justify-content-end">
-        <li><a href=""><i class="fab fa-2x pr-3 fa-instagram"></i></a> </li>
-        <li><a href=""><i class="fab fa-2x pr-3 fa-twitter"></i></a> </li>
-        <li><a href=""><i class="fab fa-2x pr-3 fa-facebook-f"></i></a> </li>
+        <li><a href="#"><i class="fab fa-2x pr-3 fa-instagram"></i></a> </li>
+        <li><a href="#"><i class="fab fa-2x pr-3 fa-twitter"></i></a> </li>
+        <li><a href="#"><i class="fab fa-2x pr-3 fa-facebook-f"></i></a> </li>
       </ul>
     </div>
 

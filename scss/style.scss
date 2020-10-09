@@ -25,17 +25,22 @@ $primary-color: #d35266;
 
 a,
 p,
-li a {
-  color: $dark-color;
-}
-
+li a,
 h3,
 h4 {
   color: $dark-color;
 }
 
+summary h1 {
+  color: $primary-color;
+}
+
 a:hover {
   text-decoration: none;
+}
+
+.footer-effect:hover {
+  color: $primary-color;
 }
 
 footer {
@@ -102,7 +107,7 @@ main {
     background-color: $primary-color;
     height: 20rem;
 
-    h2,
+    h1,
     p {
       color: white;
     }
@@ -242,11 +247,17 @@ main {
 @media (max-width: 768px) {
   header {
     .features {
-      font-size: 14px;
+      font-size: 1.5rem;
     }
 
     .disa {
       display: none;
+    }
+  }
+
+  .search-section {
+    h1 {
+      font-size: 1.5rem;
     }
   }
 }

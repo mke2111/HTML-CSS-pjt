@@ -2,12 +2,12 @@
 
 # HTML & CSS Capstone
 
-This project marks the basic concept understanding of the HTML and CSS. It's a design of an online Guitar Instrument shop. 
+This project marks the basic concept understanding of the HTML and CSS. It's a design of an online Guitar Instrument shop "Guitar Rhythm Cloud". 
 
 
 ![screenshot](./capstone-screenshot.png)
 
-Inspiration for the design is entirely from the developer/author basing on the layout, font family and colors given in the description. 
+Inspiration for the design is entirely from the developer/author basing on the layout, font family and colors given in the description. Guitar Rhythm Cloud design focuses mainly on user-friendly layout that gives an instant eye catch.
 
 
 ## Built With
@@ -55,7 +55,9 @@ Feel free to check the [issues page](https://github.com/mke2111/HTML-CSS-pjt/iss
 
 ## Acknowledgement
 
-The Zattix design by Mohammed Awad
+The Zattix design by [Mohammed Awad](https://www.behance.net/M_Awad).
+
+[Demo page](https://www.behance.net/gallery/24796463/ZATTIX)
 
 
 ## Show your support
